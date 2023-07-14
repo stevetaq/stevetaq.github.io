@@ -26,7 +26,7 @@ nav-menu: true
 			<h3><center>Economic Analysis & Stress Testing</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/stress.png" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/bank.png" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 				<p><center>Macroeconomics, Risk Analsyis, Scenario Analysis, Basel, IFRS9, and Financial Indicators</center></p>
@@ -37,7 +37,7 @@ nav-menu: true
 			<h3><center>Programming & Scripting</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/programming.jpg" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/programming.png" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 			<p><center>Analysis, Research, Logic, Scientific Method, Creativity, and a Variety of Languages</center></p>
@@ -48,7 +48,7 @@ nav-menu: true
 			<h3><center>Data Analytics & Data Mining</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/analytics.jpg" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/stress.png" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 			<p><center>Databases, Extracts, Reporting, and Predictive Analysis</center></p>
@@ -59,7 +59,7 @@ nav-menu: true
 			<h3><center>Documentation, Presenting & Report Writing</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/write.jpg" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/write.png" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 				<p><center>Audience Analysis, Attention to Deail and Tracing, Evidencing Mindset </center></p>
