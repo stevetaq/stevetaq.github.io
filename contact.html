@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Request CV Access</title>
+  <script type="text/javascript">
+    function sendEmail() {
+      var email = "stephen.ahiabah@hotmail.com";
+      var subject = "Requesting Access to CV";
+      var body = "Dear Stephen,\n\nI am writing to request access to your CV. Please provide me with the necessary permissions to view it.\n\nThank you.\n\nSincerely,\n[Your Name]";
+      window.location = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    }
+  </script>
+</head>
+<body>
+  <h1>Request CV Access</h1>
+  <p>To request access to my CV, please click the button below:</p>
+  <button onclick="sendEmail()">Request Access</button>
+</body>
+</html>

@@ -1,8 +1,7 @@
 ---
-title: Landing
+title: Project Portfolio
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+image: assets/images/coder.jpeg
 nav-menu: true
 ---
 
@@ -11,77 +10,100 @@ nav-menu: true
 
 <!-- One -->
 <section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-	</div>
+    <div class="inner">
+        <header class="major">
+            <h2>Projects</h2>
+        </header>
+        <p>"Here are the various project I have been working on recently. largely all highlighting my proficeincy in Programming and project management. With a focus on the intersection of technology and finance, my projects showcase my ability to develop innovative solutions, automate processes, and analyze data for informed decision-making in various financial domains.".</p>
+    </div>
 </section>
 
-<!-- Two -->
+
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Pitch IQ</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+                <b>Field</b>: Sports Analytics & Blogging <br>
+                <b>Description:</b>: A personal and insightful football analytics platform I created as a hobbyist football data scientist. I have a deep love for football and a strong dedication to analyzing the game from a data-driven perspective. Pitch IQ is the culmination of my efforts to share unique insights and provide a fresh perspective on the world of football. <br>
+                <ul class="actions">
+					<li><a href='https://steveaq.github.io/'><i>Link to project</i></a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+		<a class="image">
+            <img src="{% link assets/images/PITCH IQ PRIMARY.png %}" alt="" data-position="bottom" />
+		</a>
+	</section>	
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Cannon IQ</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <b>Field</b>: Sports Blogging <br>
+                <b>Purpose</b>: I also created Cannon IQ, a dedicated substack blog focusing exclusively on my beloved Arsenal. As a die-hard Gunners fan, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal. Cannon IQ is my way of connecting with other Arsenal fans and providing my perspective on my favorite club. <br>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href='https://pitchiq800.substack.com/p/cannon-iq'><i>Link to Substack</i></a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+		<a class="image">
+		<br><br>
+            <img src="{% link assets/images/Cannon IQ Main.png %}" alt="" data-position="bottom" />
+		</a>
+	</section>		
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Spotify Recommendation Algorithm</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <b>Field</b>: Personal Project <br>
+                <b>Purpose</b>: In order to help develop my technical skills in Data Science, I started and documented a project going through how to work with and create an algorithm with spotify's python API. <br>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href='https://docs.google.com/presentation/d/1OAJfrBpMzJs-HojhwO3v9BqsTYam-mf8/edit?usp=sharing&ouid=117387893329040448761&rtpof=true&sd=true'><i>Link to Project</i></a></li>
 				</ul>
 			</div>
 		</div>
+		<a class="image">
+            <img src="{% link assets/images/spotipy.png %}" alt="" data-position="bottom" />
+		</a>
+	</section>	
+	<section>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Streamlit Applications</h3>
+				</header>
+                <b>Field</b>: Data Visualisations <br>
+                <b>Purpose</b>: Further to some of the visualisation work in both Cannon & Pitch IQ, I also built some streamlit apps to better visualise football data in a more interactive manner than just what matplotlib can provide. <br>
+				<ul class="actions">
+					<li><a href='https://www.linkedin.com/in/erwan-hochart/overlay/experience/1795929067/multiple-media-viewer/?profileId=ACoAADInhz4BJFEyZtfESN909ISsuUOcK5oPlho&treasuryMediaId=1635499510228'><i>Link to full Project.</i></a></li>
+				</ul>
+			</div>
+		</div>
+		<a class="image">
+            <img src="{% link assets/images/streamlit.png %}" alt="" data-position="middle" />
+		</a>
 	</section>
+	
 </section>
 
 <!-- Three -->
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Links to Other Writing</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>I also have some further links to some of my writings on substack.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="https://pitchiq800.substack.com/" class="button next">Explore</a></li>
 		</ul>
 	</div>
 </section>
 
 </div>
+
