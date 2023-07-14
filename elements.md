@@ -172,7 +172,7 @@ nav-menu: true
 			<li>Sports Analytics & Blogging </li>
 			<li>A personal and insightful football analytics platform I created as a hobbyist football data scientist.</li>
 		</ul></p>
-		<ul class="actions"> <a href='https://steveaq.github.io/'class="button">View Project</a></ul>
+		<ul class="actions"> <a href="'https://steveaq.github.io/'" class="button">View Project</a></ul>
 	</div>
 	</div>
 	<div class="6u$ 12u$(small)">
