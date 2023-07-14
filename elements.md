@@ -23,13 +23,13 @@ nav-menu: true
 	<!-- Break -->
 	<div class="3u 12u$(medium)">
 		<div class="box">
-			<h3><center>Systems Implementation</center></h3>
+			<h3><center>Economic Analysis & Stress Testing</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/computer.png" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/stress.png" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
-				<p><center>IT Support, Problem Solving, Diagnosis, Documentation, Configuration, and Mobility</center></p>
+				<p><center>Macroeconomics, Risk Analsyis, Scenario Analysis, Basel, IFRS9, and Financial Indicators</center></p>
 		</div>
 	</div>
 	<div class="3u 12u$(medium)">
@@ -37,7 +37,7 @@ nav-menu: true
 			<h3><center>Programming & Scripting</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/coding.png" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/programming.jpg" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 			<p><center>Analysis, Research, Logic, Scientific Method, Creativity, and a Variety of Languages</center></p>
@@ -48,7 +48,7 @@ nav-menu: true
 			<h3><center>Data Analytics & Data Mining</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/analysis.png" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/analytics.jpg" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
 			<p><center>Databases, Extracts, Reporting, and Predictive Analysis</center></p>
@@ -56,13 +56,13 @@ nav-menu: true
 	</div>
 	<div class="3u 12u$(medium)">
 		<div class="box">
-			<h3><center>Networking & Security</center></h3>
+			<h3><center>Documentation, Presenting & Report Writing</center></h3>
 			<div class="row 50% uniform">
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
-				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/cloud-computing.png" alt="" /></span></div>
+				<div class="6u" style="text-align: center;"><span class="image fit"><img src="assets/images/write.jpg" alt="" /></span></div>
 				<div class="3u" style="text-align: center;"><span class="image fit"></span></div>
 			</div>
-				<p><center>Access Control, Packet Capturing and Tracing, Virtual Environments and Cloud Service Support </center></p>
+				<p><center>Audience Analysis, Attention to Deail and Tracing, Evidencing Mindset </center></p>
 		</div>
 	</div>
 </div>
@@ -197,7 +197,7 @@ nav-menu: true
 	</div>
 <div class="6u 12u$(small)">
 	<div class="box">
-		<p><span class="image left"><img src="{% link assets/images/spotipy.png%}" alt="" style="max-width: 100%;" /></span><strong>Streamlit Applications</strong><br>
+		<p><span class="image left"><img src="{% link assets/images/streamlit.png%}" alt="" style="max-width: 100%;" /></span><strong>Streamlit Applications</strong><br>
 		<ul>
 		<li>Data Visualisations </li>
 			<li>Further to some of the visualisation work in both Cannon & Pitch IQ, I also built some streamlit apps to better visualise football data in a more interactive manner than just what matplotlib can provide.</li>
