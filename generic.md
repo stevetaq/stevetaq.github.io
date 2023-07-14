@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-image: assets/images/pic11.jpg
+image: assets/images/steve.jepg
 nav-menu: true
 ---
 
