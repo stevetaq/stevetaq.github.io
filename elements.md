@@ -71,7 +71,7 @@ nav-menu: true
 <h1 id="content">Summary of Experience</h1>
 	<hr>
 <div class="row">
-<p>I am a skilled Quantitative Stress Testing Analyst at NatWest Group. With a Master of Engineering (MEng) degree in Materials Science and Engineering, I excel in reviewing stress testing results, presenting to senior management, and developing automated reporting dashboards. My expertise lies in Python, advanced Excel, and SQL, as well as a good understanding of the regulaotry landscape with regards to IFRS9 and the Basel accords. Here is summary of my key roles:</p>
+<p>I am a skilled Quantitative Stress Testing Analyst at NatWest Group. With a degree in Materials Science and Engineering, I excel in reviewing stress testing results, presenting to senior management, and developing automated reporting dashboards. My expertise lies in Python, advanced Excel, and SQL, as well as a good understanding of the regulaotry landscape with regards to IFRS9 and the Basel accords. Here is summary of my key roles:</p>
 <div class="row">
 	<div class="4u 12u$(medium)">
 		<h3>Quantitative Stress Testing Analyst</h3>
