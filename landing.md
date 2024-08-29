@@ -14,7 +14,7 @@ nav-menu: true
         <header class="major">
             <h2>Projects</h2>
         </header>
-        <p>"Here are the various project I have been working on recently. largely all highlighting my proficeincy in Programming and project management. With a focus on the intersection of technology and finance, my projects showcase my ability to develop innovative solutions, automate processes, and analyze data for informed decision-making in various financial domains.".</p>
+        <p>Here are the various project I have been working on recently, largely all highlighting my proficiency in programming and project management. With a focus on the intersection of technology and sports, my projects showcase my ability to develop innovative solutions, automate processes, and analyze data for informed decision-making in various domains.</p>
     </div>
 </section>
 
@@ -26,7 +26,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Pitch IQ</h3>
 				</header>
-                <b>Field</b>: Sports Analytics & Blogging <br>
+                <b>Field</b>: Sports Analytics <br>
                 <b>Description:</b>: A personal and insightful football analytics platform I created as a hobbyist football data scientist. I have a deep love for football and a strong dedication to analyzing the game from a data-driven perspective. Pitch IQ is the culmination of my efforts to share unique insights and provide a fresh perspective on the world of football. <br>
                 <ul class="actions">
 					<li><a href='https://steveaq.github.io/'><i>Link to project site</i></a></li>
@@ -46,7 +46,7 @@ nav-menu: true
                 <b>Field</b>: Sports Blogging <br>
                 <b>Purpose</b>: I also created Cannon IQ, a dedicated substack blog focusing exclusively on my beloved Arsenal. As a die-hard Gunners fan, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal. Cannon IQ is my way of connecting with other Arsenal fans and providing my perspective on my favorite club. <br>
 				<ul class="actions">
-					<li><a href='https://pitchiq800.substack.com/p/cannon-iq'><i>Link to Substack</i></a></li>
+					<li><a href='https://cannoniq.substack.com/'><i>Link to Substack</i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -100,7 +100,7 @@ nav-menu: true
 		</header>
 		<p>I also have some further links to some of my writings on substack.</p>
 		<ul class="actions">
-			<li><a href="https://pitchiq800.substack.com/" class="button next">Explore</a></li>
+			<li><a href="https://cannoniq.substack.com/" class="button next">Explore</a></li>
 		</ul>
 	</div>
 </section>

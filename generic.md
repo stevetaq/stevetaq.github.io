@@ -1,23 +1,26 @@
 ---
 layout: post
 title: About Me
-image: assets/images/steve.jpg
+image: assets/images/new_pic.png
 nav-menu: true
 ---
+Hello, I'm Stephen Ahiabah-Quarshie.
 
-Hello, my name is Stephen Ahiabah.
+I currently work in Risk Modelling at JP Morgan Chase in London, UK. My role involves leading the development and implementation of credit risk models for international consumer banking portfolio. I utilize Python, advanced Excel, and SQL for in-depth analysis and regularly present credit risk findings to senior management and business stakeholders, emphasizing key drivers and their implications.
 
-Currently, I work as a Quantitative Stress Testing Analyst at NatWest Group in London, UK. In my role, I am the lead analyst providing review and challenge stress testing results & models for NatWest Holding's retail banking portfolio, using Python, advanced Excel, and SQL for analysis. My role also includes presenting credit risk stress testing outcomes to senior management and business stakeholders, highlighting key drivers and implications.
+I earned my degree in Materials Science & Engineering from The University of Manchester, specializing in the industrial application of thermolectric and nuclear naterials. 
 
-I hold a degree in Materials Science and Engineering from The University of Manchester. Throughout my career, I have developed expertise in data extraction, preparation, and assessment, collaborating with various teams to resolve data-related issues promptly. I take pride in creating well-structured documentation and implementing robust testing procedures for statistical analysis. Additionally, I have experience in developing automated reporting dashboards to facilitate stress test analysis & model validation. 
-I have proficiency in programming languages such as Python, SAS, SQL, and VBA. I am well-versed in MS Excel, Tableau, Git, and Power BI.
+Over the course of my career, I’ve honed my expertise in data extraction, preparation, and evaluation, working closely with various teams to promptly resolve data-related challenges. I take pride in producing well-organized documentation and establishing robust testing procedures for statistical analysis. Additionally, I have experience in creating automated reporting dashboards to support stress testing and model validation.
 
-Outside of work, I maintain a personal blog, where I share insights on sports analytics and programming concepts that have intrigued me.
+I am proficient in programming languages such as Python, SAS, SQL, and VBA, and I am also skilled in tools like MS Excel, Tableau, Git, and Power BI.
 
-Overall, I am passionate about applying my skills in quantitative analysis and data science to contribute to both the finance & sports industries.
+Outside of my professional life, I maintain a personal blog where I explore sports analytics and programming concepts that fascinate me.
 
-Feel free to reach out for any questions on my projects or a CV request.
+I am passionate about leveraging my skills in quantitative analysis and data science to make meaningful contributions in both the finance and sports industries.
 
+Feel free to contact me if you have any questions about my projects or if you’d like a copy of my CV.
+
+Best regards,
 Steve
 
 <ul class="actions vertical">
