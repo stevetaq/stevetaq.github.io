@@ -75,7 +75,7 @@ nav-menu: true
 <div class="row">
 	<div class="4u 12u$(medium)">
 		<h3>Quantitative Risk Modeller</h3>
-		<p> In my role in Credit Forecasting at JP Morgan, I support the expansion of the ICB business expansion  across the UK and Europe. My responsibilities included forecasting credit losses and allowance, developing analytics for new products, and collaborating with various stakeholders. I leveraged my strong analytical skills and coding expertise in Python to drive data-driven decision-making and ensure accurate reporting. My ability to communicate complex concepts effectively and manage multiple priorities contributed to my success in this fast-paced and dynamic environment.</p>
+		<p> In my role in Credit Forecasting at JP Morgan, I support the expansion of the ICB business expansion  across the UK and Europe. My responsibilities included forecasting credit losses and allowance, developing analytics for new products, and collaborating with various stakeholders. I leveraged my strong analytical skills and coding expertise in Python to drive data-driven decision-making and ensure accurate reporting.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Quantitative Stress Testing Analyst</h3>
