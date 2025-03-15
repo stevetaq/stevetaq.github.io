@@ -27,9 +27,10 @@ socials:
   Google-Plus: 
   Instagram: 
   LinkedIn: https://uk.linkedin.com/in/stephen-ahiabah-3a9886a6
-  Twitter: https://x.com/cannoniq94?s=21
+  Twitter: 
   Facebook:
   Slack:
+  bluesky: https://bsky.app/profile/pitchiq.bsky.social
 
 # build settings
 markdown: kramdown
