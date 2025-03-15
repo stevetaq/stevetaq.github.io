@@ -86,7 +86,7 @@ nav-menu: true
 			</div>
 		</div>
 		<a class="image">
-            <img src="{% link assets/images/Prediction model.png %}" alt="" data-position="middle" />
+            <img src="{% link assets/images/png_tree.png %}" alt="" data-position="middle" />
 		</a>
 	</section>
 	
