@@ -192,7 +192,7 @@ nav-menu: true
 			<li>Sports Analytics & Blogging </li>
 			<li>A personal and insightful football analytics platform I created as a hobbyist football data scientist.</li>
 		</ul></p>
-		<ul class="actions"> <a href="'https://steveaq.github.io/'" class="button">View Project</a></ul>
+		<ul class="actions"> <a href='https://steveaq.github.io/' class="button">View Project</a></ul>
 	</div>
 	</div>
 	<div class="6u$ 12u$(small)">
@@ -202,7 +202,7 @@ nav-menu: true
 			<li>Sports Blogging</li>
 			<li>I also created Cannon IQ, a dedicated substack blog focusing exclusively on my beloved Arsenal. As a die-hard Gunners fan, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal.</li>
 		</ul></p>
-		<ul class="actions"> <a href="'https://cannoniq.substack.com/'" class="button">View Project</a></ul>
+		<ul class="actions"> <a href='https://cannoniq.substack.com/' class="button">View Project</a></ul>
 	</div>
 	</div>
 <div class="6u 12u$(small)">
@@ -210,19 +210,19 @@ nav-menu: true
 		<p><span class="image left"><img src="{% link assets/images/spotipy.png%}" alt="" style="max-width: 100%;" /></span><strong>Spotify Recommendation Algorithm</strong><br>
 		<ul>
 		<li>Personal Project</li>
-			<li>In order to help develop my technical skills in Data Science, I started and documented a project going through how to work with and create an algorithm with spotify's python API.</li>
+			<li> A documented project going through how to work with and create a recomendation algorithm with spotify's python API.</li>
 			</ul></p>
-		<ul class="actions"> <a href="research_website.html" class="button">View Project</a></ul>
+		<ul class="actions"> <a href="https://github.com/steveaq/spotify_project" class="button">View Project</a></ul>
 	</div>
 	</div>
 <div class="6u 12u$(small)">
 	<div class="box">
-		<p><span class="image left"><img src="{% link assets/images/streamlit.png%}" alt="" style="max-width: 100%;" /></span><strong>Streamlit Applications</strong><br>
+		<p><span class="image left"><img src="{% link assets/images/png_tree.png%}" alt="" style="max-width: 100%;" /></span><strong>Machine Learning Prediction Model Project</strong><br>
 		<ul>
-		<li>Data Visualisations </li>
-			<li>Further to some of the visualisation work in both Cannon & Pitch IQ, I also built some streamlit apps to better visualise football data in a more interactive manner than just what matplotlib can provide.</li>
+		<li>Predictive Analytics </li>
+			<li>Leveraging historical FIFA rankings and international match results, the model aims to accurately forecast the tournament's final match and the eventual winner.</li>
 			</ul></p>
-		<ul class="actions"> <a href='https://www.linkedin.com/in/erwan-hochart/overlay/experience/1795929067/multiple-media-viewer/?profileId=ACoAADInhz4BJFEyZtfESN909ISsuUOcK5oPlho&treasuryMediaId=1635499510228' class="button">View Project</a></ul>
+		<ul class="actions"> <a href='https://github.com/steveaq/ML-2024-Euros-Model/tree/main' class="button">View Project</a></ul>
 	</div>
 	</div>
 		</div>
@@ -250,7 +250,7 @@ nav-menu: true
 			<li>Python</li>
 			<li>SQL</li>
 			<li>SAS</li>
-			<li>VBA</li>
+			<li>R</li>
 			<li>Javascript</li>
 			<li>HTML/CSS</li>
 		</ul>
