@@ -74,13 +74,13 @@ nav-menu: true
 <p>I am a skilled Quantitative Risk Analyst/Data Scientist. With a degree in Materials Science and Engineering, I have several years of experience in developing quantitative methods to forecast credit impairments and risk-weighted assets, reviewing stress testing results, presenting to senior management, and creating automated reporting dashboards. My expertise lies in Python, advanced Excel, and SQL, as well as a good understanding of the regulatory landscape with regards to IFRS9 and the Basel accords. Here is summary of my key roles:</p>
 <div class="row">
 	<div class="4u 12u$(medium)">
-		<h3>Quantitative Risk Modeller</h3>
-		<p> In my role in Credit Forecasting at JP Morgan, I support the expansion of the ICB business expansion  across the UK and Europe. My responsibilities included forecasting credit losses and allowance, developing analytics for new products, and collaborating with various stakeholders. I leveraged my strong analytical skills and coding expertise in Python to drive data-driven decision-making and ensure accurate reporting.</p>
+		<h3>Lead Quantitative Risk Modeller</h3>
+		<p> In my role in Credit Forecasting at JP Morgan, I support the expansion of the ICB business expansion  across the UK and Europe. My responsibilities included forecasting credit losses and allowance, developing analytics for new products, and collaborating with various stakeholders. I leveraged my strong analytical skills and coding expertise in Python to drive data-driven decision-making and the developement of loss forecasting models.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Quantitative Stress Testing Analyst</h3>
 		<p>As a Quantitative Stress Testing Analyst at NatWest Group, I conducted and analysed regulatory and internal stress tests, covering IFRS9, Basel Pillar II, and III requirements. analysis using Python, advanced Excel, and SQL. I co-lead the development and implementation of Probability of Default models, as well as leading the development of an purpose built Mortgage Arrears prediction model. 
-		My focus was to identify key drivers of the stress results with and communicated business implications for NatWest Group's retail lending products under both business-as-usual conditions and adverse economic stresses.</p>
+		My focus was to identify key drivers of the stress results and communicate business implications for NatWest Group's retail lending products under both business-as-usual conditions and adverse economic stresses.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>Graduate Data Scientist</h3>

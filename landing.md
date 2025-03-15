@@ -76,17 +76,17 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Streamlit Applications</h3>
+					<h3>Machine Learning Prediction Model Project</h3>
 				</header>
-                <b>Field</b>: Data Visualisations <br>
-                <b>Purpose</b>: Further to some of the visualisation work in both Cannon & Pitch IQ, I also built some streamlit apps to better visualise football data in a more interactive manner than just what matplotlib can provide. <br>
+                <b>Field</b>: Machine Learning & Predictive Analytics <br>
+                <b>Purpose</b>: This project involves building a machine learning model to predict the outcomes of the 2024 UEFA European Football Championship (Euros). By leveraging historical FIFA rankings and international match results, the model aims to accurately forecast the tournament's final match and the eventual winner. <br>
 				<ul class="actions">
-					<li><a href='https://github.com/steveaq/streamlit_project'><i>Link to full Project Github Repo.</i></a></li>
+					<li><a href='https://github.com/steveaq/ML-2024-Euros-Model/tree/main'><i>Link to full Project Github Repo.</i></a></li>
 				</ul>
 			</div>
 		</div>
 		<a class="image">
-            <img src="{% link assets/images/streamlit.png %}" alt="" data-position="middle" />
+            <img src="{% link assets/images/Prediction model.png %}" alt="" data-position="middle" />
 		</a>
 	</section>
 	
