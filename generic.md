@@ -24,7 +24,7 @@ Best regards,
 Steve
 
 <ul class="actions vertical">
-    <!-- <li><a href="#" class="button special fit">About</a></li> -->
+    <li><a href="#" class="button special fit">About</a></li>
     <li><a href="{{ '/contact.html' | absolute_url}}" class="button fit">Request CV</a></li>
 </ul> -->
 
@@ -51,3 +51,32 @@ Steve
         <p>Best regards,<br>Steve</p>
     </div>
 </section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+            <h2>About Me</h2>
+            <p>I am a data-driven professional with expertise in risk modelling, data analysis, and programming. Below are some highlights of my skills and experiences.</p>
+        </header>
+        <ul class="features">
+            <li class="icon fa-paper-plane-o">
+                <h3>Risk Modelling</h3>
+                <p>I lead the development and implementation of credit risk models for international consumer banking portfolios at JP Morgan Chase. My work involves in-depth analysis using Python, Excel, and SQL, and presenting findings to senior management.</p>
+            </li>
+            <li class="icon fa-laptop">
+                <h3>Data Analysis</h3>
+                <p>I specialize in data extraction, preparation, and evaluation, collaborating with teams to resolve data-related challenges. I also create automated reporting dashboards for stress testing and model validation.</p>
+            </li>
+            <li class="icon fa-code">
+                <h3>Programming</h3>
+                <p>Proficient in Python, SAS, SQL, and VBA, I leverage these tools to build robust statistical models and automate workflows. I also use Tableau, Power BI, and Git for data visualization and version control.</p>
+            </li>
+            <li class="icon fa-heart-o">
+                <h3>Passion Projects</h3>
+                <p>Outside of work, I maintain a personal blog where I explore sports analytics and programming concepts. I am passionate about applying data science to both finance and sports industries.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
