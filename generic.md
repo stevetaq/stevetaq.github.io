@@ -33,7 +33,7 @@ Steve
 
 ## 🎯 Professional Summary
 
-Risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. Currently leading model development and validation at JP Morgan Chase, where I transform complex financial data into actionable insights for senior stakeholders. My background combines strong technical proficiency in data science tools with deep domain knowledge in consumer banking risk assessment.
+I am a risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. As the Lead Model Developer for JP Morgan's International Consumer Banking (ICB) Loss Forecasting, I spearhead the development and validation of critical risk models that drive strategic decision-making. I transform complex financial data into actionable insights for senior stakeholders, combining strong technical proficiency in data science tools with deep domain knowledge in consumer banking risk assessment.
 
 ---
 
@@ -267,7 +267,7 @@ h2::after {
 
 ---
 
-## 📊 About Me
+## 📑 About Me
 
 Hello, I'm Stephen Ahiabah-Quarshie.
 
