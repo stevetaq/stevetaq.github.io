@@ -74,7 +74,7 @@ nav-menu: true
 <p>I am a skilled Quantitative Risk Analyst/Data Scientist. With a degree in Materials Science and Engineering, I have several years of experience in developing quantitative methods to forecast credit impairments and risk-weighted assets, reviewing stress testing results, presenting to senior management, and creating automated reporting dashboards. My expertise lies in Python, advanced Excel, and SQL, as well as a good understanding of the regulatory landscape with regards to IFRS9 and the Basel accords. Here is summary of my key roles:</p>
 <div class="row">
 	<div class="4u 12u$(medium)">
-		<h3>Lead Quantitative Risk Modeller</h3>
+		<h3>Lead Quantitative Risk Model Developer</h3>
 		<p> In my role in Credit Forecasting at JP Morgan, I support the expansion of the ICB business expansion  across the UK and Europe. My responsibilities included forecasting credit losses and allowance, developing analytics for new products, and collaborating with various stakeholders. I leveraged my strong analytical skills and coding expertise in Python to drive data-driven decision-making and the developement of loss forecasting models.</p>
 	</div>
 	<div class="4u 12u$(medium)">
@@ -113,7 +113,7 @@ nav-menu: true
 	<div class="row">
 	<!-- #1 -->
 	<div class="6u 12u$(small)">
-		<h3>JP Morgan | Senior Credit Risk Modeller</h3>
+		<h3>JP Morgan | Lead Risk Model Developer</h3>
 		<p>London, UK<br> 
 		September 2024 – Current</p>
 	</div>
