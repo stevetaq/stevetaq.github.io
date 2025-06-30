@@ -119,7 +119,7 @@ nav-menu: true
 	</div>
 	<div class="6u$ 12u$(small)">
 		<ul>
-			<li>Leading the development and implementation of credit risk models for retail and corporate portfolios.</li>
+			<li>Leading the development and implementation of credit risk loss forecasting models for JP Morgan's ICB business.</li>
 			<li>Collaborating with cross-functional teams to ensure compliance with regulatory requirements and internal risk management frameworks.</li>
 			<li>Utilizing advanced analytics and machine learning techniques to enhance the accuracy and predictive power of credit risk assessments.</li>
 		</ul>
