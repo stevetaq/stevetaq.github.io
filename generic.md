@@ -25,15 +25,20 @@ Steve
 
 <ul class="actions vertical">
     <!-- <li><a href="#" class="button special fit">About</a></li> -->
-    <li><a href="{{ '/contact.html' | absolute_url}}" class="button fit">Request CV</a></li>
+<!-- <li><a href="{{ '/contact.html' | absolute_url}}" class="button fit">Request CV</a></li>
 </ul>  -->
 <!--  -->
 
 
-Professional Summary
+
+## 🎯 Professional Summary
+
 Risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. Currently leading model development and validation at JP Morgan Chase, where I transform complex financial data into actionable insights for senior stakeholders. My background combines strong technical proficiency in data science tools with deep domain knowledge in consumer banking risk assessment.
 
-Technical Skills
+---
+
+## 🛠️ Technical Skills
+
 <div class="skills-container">
   <div class="skill-item">
     <div class="skill-header">
@@ -44,6 +49,7 @@ Technical Skills
       <div class="progress-fill" style="width: 80%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">Git</span>
@@ -53,6 +59,7 @@ Technical Skills
       <div class="progress-fill" style="width: 80%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">SAS</span>
@@ -62,6 +69,7 @@ Technical Skills
       <div class="progress-fill" style="width: 80%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">SQL</span>
@@ -71,6 +79,7 @@ Technical Skills
       <div class="progress-fill" style="width: 80%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">R</span>
@@ -80,6 +89,7 @@ Technical Skills
       <div class="progress-fill" style="width: 50%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">Java</span>
@@ -89,6 +99,7 @@ Technical Skills
       <div class="progress-fill" style="width: 50%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">JavaScript</span>
@@ -98,6 +109,7 @@ Technical Skills
       <div class="progress-fill" style="width: 50%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">MS Excel</span>
@@ -107,6 +119,7 @@ Technical Skills
       <div class="progress-fill expert" style="width: 90%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">Tableau</span>
@@ -116,6 +129,7 @@ Technical Skills
       <div class="progress-fill advanced" style="width: 75%;"></div>
     </div>
   </div>
+
   <div class="skill-item">
     <div class="skill-header">
       <span class="skill-name">Power BI</span>
@@ -125,17 +139,64 @@ Technical Skills
       <div class="progress-fill advanced" style="width: 75%;"></div>
     </div>
   </div>
+
+  <div class="skill-item">
+    <div class="skill-header">
+      <span class="skill-name">Macroeconomic Analysis</span>
+      <span class="skill-percentage">Expert</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill expert" style="width: 90%;"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <div class="skill-header">
+      <span class="skill-name">Statistics</span>
+      <span class="skill-percentage">Expert</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill expert" style="width: 90%;"></div>
+    </div>
+  </div>
 </div>
+
 <style>
 .skills-container {
   margin: 20px 0;
   padding: 20px;
   background: #f8f9fa;
   border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 }
 
 .skill-item {
-  margin-bottom: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .skill-header {
@@ -179,18 +240,52 @@ Technical Skills
 .progress-fill.advanced {
   background: linear-gradient(90deg, #8b5cf6, #7c3aed);
 }
+
+/* Enhanced title styling */
+h2 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
 </style>
 
-About Me
+---
+
+## 📊 About Me
+
 Hello, I'm Stephen Ahiabah-Quarshie.
+
 I currently work in Risk Modelling at JP Morgan Chase in London, UK. My role involves leading the development and implementation of credit risk models for international consumer banking portfolios. I utilize Python, advanced Excel, and SQL for in-depth analysis and present credit risk findings to senior management and business stakeholders, emphasizing key drivers and their implications.
-I earned my degree in Materials Science & Engineering from The University of Manchester, specializing in the industrial application of thermoelectric and nuclear materials.
+
+I earned my degree in Materials Science & Engineering from The University of Manchester, specializing in the industrial application of thermoelectric and nuclear materials. 
+
 Over the course of my career, I've honed my expertise in data extraction, preparation, and evaluation, working closely with various teams to promptly resolve data-related challenges. I take pride in producing well-organized documentation and establishing robust testing procedures for statistical analysis. Additionally, I have experience in creating automated reporting dashboards to support stress testing and model validation.
+
 Outside of my professional life, I maintain a personal blog where I explore sports analytics and programming concepts that fascinate me.
+
 I am passionate about leveraging my skills in quantitative analysis and data science to make meaningful contributions in both the finance and sports industries.
+
 Feel free to contact me if you have any questions about my projects or if you'd like a copy of my CV.
+
 Best regards,
 Steve
+
 <ul class="actions vertical">
     <!-- <li><a href="#" class="button special fit">About</a></li> -->
     <li><a href="{{ '/contact.html' | absolute_url}}" class="button fit">Request CV</a></li>
