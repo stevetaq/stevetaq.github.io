@@ -41,7 +41,7 @@ nav-menu: true
     <div class="section-container">
         <h2 class="section-title">Professional Summary</h2>
         <div class="summary-card">
-            <p class="summary-text">I am a risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. As the Lead Model Developer for JP Morgan's International Consumer Banking (ICB) Loss Forecasting, I spearhead the development and validation of critical risk models that drive strategic decision-making budgeting and credit strategy. I transform complex financial data into actionable insights for senior stakeholders, combining s strong technical proficiency in data science tools with deep domain knowledge in consumer and instutional banking risk.</p>
+            <p class="summary-text">I am a risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. As the Lead Model Developer for JP Morgan's International Consumer Banking (ICB) Loss Forecasting Team, I spearhead the development and validation of critical risk models that drive strategic decision-making budgeting and credit strategy. I transform complex financial data into actionable insights for senior stakeholders, combining a strong technical proficiency in data science tools with deep domain knowledge in consumer and instutional banking risk.</p>
         </div>
     </div>
 </section>
