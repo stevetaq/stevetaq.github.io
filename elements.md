@@ -767,10 +767,11 @@ body {
 }
 
 .company-logo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
     margin-left: -10px;
+    align-self: flex-start;
 }
 
 .company-logo img {
