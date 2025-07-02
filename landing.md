@@ -8,102 +8,787 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
-    <div class="inner">
-        <header class="major">
-            <h2>Projects</h2>
-        </header>
-        <p>Here are the various project I have been working on recently, largely all highlighting my proficiency in programming and project management. With a focus on the intersection of technology and sports, my projects showcase my ability to develop innovative solutions, automate processes, and analyze data for informed decision-making in various domains.</p>
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">
+                <span class="gradient-text">Project</span>
+                <span class="highlight-text">Portfolio</span>
+            </h1>
+            <div class="hero-subtitle">
+                Where <span class="accent-text">Technology</span> meets <span class="accent-text">Sports Analytics</span>
+            </div>
+            <p class="hero-description">
+		Here are some of the things I've been working on recently, combining my interests in data science, programming, and sports analytics.
+            </p>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">Python</div>
+                            <div class="stat-label">Primary Stack</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">ML</div>
+                            <div class="stat-label">Focus Area</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
     </div>
 </section>
 
+<!-- Projects Grid -->
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        
+        <!-- Project 1: Pitch IQ -->
+        <div class="project-card featured-card">
+            <div class="project-image">
+                <img src="{% link assets/images/PITCH IQ PRIMARY.png %}" alt="Pitch IQ" />
+                <div class="image-overlay">
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Data Science</span>
+                        <span class="tech-tag">Analytics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3 class="project-title">Pitch IQ</h3>
+                    <div class="project-field">Sports Analytics</div>
+                </div>
+                <p class="project-description">
+A personal and insightful football analytics platform I created as a hobbyist football data scientist. I have a deep love for football and a strong dedication to analyzing the game from a data-driven perspective. Pitch IQ is the culmination of my efforts to share unique insights and provide a fresh perspective on the world of football.
+                </p>
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">⚽</span>
+                        <span>Advanced Match Analytics</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">📊</span>
+                        <span>Interactive Visualizations</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎯</span>
+                        <span>Predictive Modeling</span>
+                    </div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://steveaq.github.io/" class="btn-primary">
+                        <span>Explore Platform</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-<section id="two" class="spotlights">
-	<section>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Pitch IQ</h3>
-				</header>
-                <b>Field</b>: Sports Analytics <br>
-                <b>Description:</b>: A personal and insightful football analytics platform I created as a hobbyist football data scientist. I have a deep love for football and a strong dedication to analyzing the game from a data-driven perspective. Pitch IQ is the culmination of my efforts to share unique insights and provide a fresh perspective on the world of football. <br>
-                <ul class="actions">
-					<li><a href='https://steveaq.github.io/'><i>Link to project site</i></a></li>
-				</ul>
-			</div>
-		</div>
-		<a class="image">
-            <img src="{% link assets/images/PITCH IQ PRIMARY.png %}" alt="" data-position="bottom" />
-		</a>
-	</section>	
-	<section>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Cannon IQ</h3>
-				</header>
-                <b>Field</b>: Sports Blogging <br>
-                <b>Purpose</b>: I also created Cannon IQ, a dedicated substack blog focusing exclusively on my beloved Arsenal. As a die-hard Gunners fan, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal. Cannon IQ is my way of connecting with other Arsenal fans and providing my perspective on my favorite club. <br>
-				<ul class="actions">
-					<li><a href='https://cannoniq.substack.com/'><i>Link to Substack</i></a></li>
-				</ul>
-			</div>
-		</div>
-		<a class="image">
-		<br><br>
-            <img src="{% link assets/images/Cannon IQ Main.png %}" alt="" data-position="bottom" />
-		</a>
-	</section>		
-	<section>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Spotify Recommendation Algorithm</h3>
-				</header>
-                <b>Field</b>: Personal Project <br>
-                <b>Purpose</b>: In order to help develop my technical skills in Data Science, I started and documented a project going through how to work with and create an algorithm with spotify's python API. <br>
-				<ul class="actions">
-					<li><a href='https://github.com/steveaq/spotify_project'><i>Link to full Project Github Repo</i></a></li>
-				</ul>
-			</div>
-		</div>
-		<a class="image">
-            <img src="{% link assets/images/spotipy.png %}" alt="" data-position="bottom" />
-		</a>
-	</section>	
-	<section>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Machine Learning Prediction Model Project</h3>
-				</header>
-                <b>Field</b>: Machine Learning & Predictive Analytics <br>
-                <b>Purpose</b>: This project involves building a machine learning model to predict the outcomes of the 2024 UEFA European Football Championship (Euros). By leveraging historical FIFA rankings and international match results, the model aims to accurately forecast the tournament's final match and the eventual winner. <br>
-				<ul class="actions">
-					<li><a href='https://github.com/steveaq/ML-2024-Euros-Model/tree/main'><i>Link to full Project Github Repo.</i></a></li>
-				</ul>
-			</div>
-		</div>
-		<a class="image">
-            <img src="{% link assets/images/png_tree.png %}" alt="" data-position="middle" />
-		</a>
-	</section>
-	
+        <!-- Project 2: Cannon IQ -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="{% link assets/images/Cannon IQ Main.png %}" alt="Cannon IQ" />
+                <div class="image-overlay">
+                    <div class="project-tech">
+                        <span class="tech-tag">Substack</span>
+                        <span class="tech-tag">Content</span>
+                        <span class="tech-tag">Arsenal FC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3 class="project-title">Cannon IQ</h3>
+                    <div class="project-field">Sports Blogging</div>
+                </div>
+                <p class="project-description">
+Cannon IQ is a dedicated substack blog focusing exclusively on  Arsenal. As a die-hard Gunners, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal. Cannon IQ is my way of connecting with sports analytics and Arsneal community  providing my perspective on football and data.
+                </p>
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎯</span>
+                        <span>Tactical Analysis</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">💰</span>
+                        <span>Financial Insights</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">📈</span>
+                        <span>Player Analytics</span>
+                    </div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://cannoniq.substack.com/" class="btn-secondary">
+                        <span>Read Articles</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3: Spotify Algorithm -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="{% link assets/images/spotipy.png %}" alt="Spotify Algorithm" />
+                <div class="image-overlay">
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3 class="project-title">Spotify Recommendation Engine</h3>
+                    <div class="project-field">Machine Learning</div>
+                </div>
+                <p class="project-description">
+				In order to help develop my technical skills in Data Science, I started and documented a project going through how to work with and create an algorithm with spotify's python API.
+                </p>
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎵</span>
+                        <span>Music Intelligence</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🔗</span>
+                        <span>API Mastery</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🤖</span>
+                        <span>ML Algorithms</span>
+                    </div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://saq-spotfify-app.streamlit.app/" class="btn-secondary">
+                        <span>Try App</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4: ML Prediction Model -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="{% link assets/images/png_tree.png %}" alt="ML Prediction Model" />
+                <div class="image-overlay">
+                    <div class="project-tech">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Predictive Analytics</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3 class="project-title">UEFA Euros 2024 Predictor</h3>
+                    <div class="project-field">Predictive Analytics</div>
+                </div>
+                <p class="project-description">
+				This project involves building a machine learning model to predict the outcomes of the 2024 UEFA European Football Championship (Euros). By leveraging historical FIFA rankings and international match results, the model aims to accurately forecast the tournament's final match and the eventual winner.
+                </p>
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🏆</span>
+                        <span>Tournament Prediction</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">📊</span>
+                        <span>Historical Data</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🔮</span>
+                        <span>ML Forecasting</span>
+                    </div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/steveaq/ML-2024-Euros-Model/tree/main" class="btn-secondary">
+                        <span>View Code</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Links to Other Writing</h2>
-		</header>
-		<p>I also have some further links to some of my writings on substack.</p>
-		<ul class="actions">
-			<li><a href="https://cannoniq.substack.com/" class="button next">Explore</a></li>
-		</ul>
-	</div>
+<!-- Call to Action -->
+<section id="cta" class="cta-section">
+    <div class="cta-content">
+        <div class="cta-text">
+            <h2 class="cta-title">Want to see more insights?</h2>
+            <p class="cta-description">
+I also write about sports in general and tech stuff that interests me. Feel free to check out some of my other writing if you're curious.
+            </p>
+        </div>
+        <div class="cta-action">
+            <a href="https://cannoniq.substack.com/" class="btn-cta">
+                <span>Explore My Writing</span>
+                <div class="btn-shimmer"></div>
+            </a>
+        </div>
+    </div>
 </section>
 
 </div>
 
+<style>
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 4rem;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.highlight-text {
+    color: #ffd700;
+    position: relative;
+}
+
+.highlight-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 215, 0, 0.3);
+    transform: skew(-12deg);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.accent-text {
+    color: #ffd700;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 500px;
+    line-height: 1.8;
+}
+
+.floating-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: float 6s ease-in-out infinite;
+}
+
+.card-glow {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #ffd700, #ff6b6b, #4ecdc4, #45b7d1);
+    border-radius: 22px;
+    opacity: 0;
+    animation: glow 3s ease-in-out infinite alternate;
+    z-index: -1;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.scroll-arrow {
+    width: 2px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    position: relative;
+    animation: scroll 2s ease-in-out infinite;
+}
+
+.scroll-arrow::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid rgba(255, 255, 255, 0.7);
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 6rem 0;
+    background: #f8fafc;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 3rem;
+}
+
+.project-card {
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.project-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 32px 64px -12px rgba(0, 0, 0, 0.25);
+}
+
+.featured-card {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.project-image {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.featured-card .project-image {
+    height: auto;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.1);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5rem;
+}
+
+.project-card:hover .image-overlay {
+    opacity: 1;
+}
+
+.project-tech {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tech-tag {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-content {
+    padding: 2.5rem;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 0.5rem;
+}
+
+.project-field {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.project-description {
+    color: #4a5568;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.project-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.highlight-icon {
+    font-size: 1.2rem;
+    width: 2rem;
+    text-align: center;
+}
+
+.project-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    box-shadow: 0 10px 25px -5px rgba(102, 126, 234, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px -5px rgba(102, 126, 234, 0.6);
+}
+
+.btn-secondary {
+    background: #f7fafc;
+    color: #4a5568;
+    border: 2px solid #e2e8f0;
+}
+
+.btn-secondary:hover {
+    background: white;
+    border-color: #cbd5e0;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-icon {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .btn-icon,
+.btn-secondary:hover .btn-icon {
+    transform: translateX(4px);
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 70% 30%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 30% 70%, rgba(118, 75, 162, 0.1) 0%, transparent 50%);
+}
+
+.cta-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 500px;
+    line-height: 1.8;
+}
+
+.btn-cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #1a202c;
+    padding: 1.5rem 3rem;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 20px 40px -5px rgba(255, 215, 0, 0.4);
+}
+
+.btn-cta:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 32px 64px -5px rgba(255, 215, 0, 0.6);
+}
+
+.btn-shimmer {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes glow {
+    0% { opacity: 0; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes scroll {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes shimmer {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    
+    .featured-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .hero-content {
+        padding: 0 1rem;
+    }
+    
+    .project-content {
+        padding: 2rem;
+    }
+    
+    .cta-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .project-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}
+</style>
