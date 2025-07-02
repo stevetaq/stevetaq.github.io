@@ -13,15 +13,10 @@ nav-menu: true
     <div class="hero-content">
         <div class="hero-text">
             <h1 class="hero-title">
-                <span class="gradient-text">Project</span>
-                <span class="highlight-text">Portfolio</span>
-            </h1>
-            <div class="hero-subtitle">
                 Where <span class="accent-text">Technology</span> meets <span class="accent-text">Sports Analytics</span>
-            </div>
+            </h1>
             <p class="hero-description">
-                Here are some of the things I've been working on recently, combining my interests in 
-                data science, programming, and sports analytics.
+                These are the projects I've been working on covering ML, Football, and more.
             </p>
         </div>
         <div class="hero-visual">
@@ -246,15 +241,15 @@ nav-menu: true
 <section id="cta" class="cta-section">
     <div class="cta-content">
         <div class="cta-text">
-            <h2 class="cta-title">Want to see more insights?</h2>
+            <h2 class="cta-title">Follow me on Bluesky</h2>
             <p class="cta-description">
-                I also write about sports analytics and tech stuff that interests me. 
-                Feel free to check out some of my other writing if you're curious.
+                If you want to reach out in a less professional capacity, I'm on Bluesky 
+                where I talk about tech, econ and Arsenal.
             </p>
         </div>
         <div class="cta-action">
-            <a href="https://cannoniq.substack.com/" class="btn-cta">
-                <span>Explore My Writing</span>
+            <a href="https://bsky.app/profile/pitchiq.bsky.social" class="btn-cta">
+                <span>Find me on Bluesky</span>
                 <div class="btn-shimmer"></div>
             </a>
         </div>
