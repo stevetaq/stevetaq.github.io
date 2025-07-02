@@ -68,9 +68,7 @@ nav-menu: true
                     <h3 class="project-title">Pitch IQ</h3>
                 </div>
                 <p class="project-description">
-                    A revolutionary football analytics platform born from passion and data-driven insights. 
-                    As a hobbyist football data scientist, I've created a comprehensive ecosystem that transforms 
-                    raw match data into compelling narratives and strategic intelligence.
+				A football analytics platform built by a data enthusiast. I collect and analyze match data to uncover interesting patterns and insights about the game, turning numbers into stories that help explain what's happening on the pitch.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -115,8 +113,7 @@ nav-menu: true
                     <h3 class="project-title">Cannon IQ</h3>
                 </div>
                 <p class="project-description">
-                    An exclusive Arsenal-focused analytical blog where tactical genius meets financial intelligence. 
-                    Deep-dive analyses, player performance metrics, and strategic insights exclusively for the Gunners faithful.
+				An Arsenal blog combining tactical analysis with financial insights. I write detailed breakdowns of player performances, team tactics, and transfer strategies for fellow Arsenal fans.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -161,7 +158,7 @@ nav-menu: true
                     <h3 class="project-title">Spotify Recommendation Engine</h3>
                 </div>
                 <p class="project-description">
-                    A sophisticated music recommendation system leveraging Spotify's API and advanced machine learning algorithms. 
+                    A music recommendation system leveraging Spotify's API and machine learning algorithms. 
                     Demonstrates proficiency in API integration, data processing, and algorithmic thinking.
                 </p>
                 <div class="project-highlights">
@@ -207,8 +204,8 @@ nav-menu: true
                     <h3 class="project-title">UEFA Euros 2024 Predictor</h3>
                 </div>
                 <p class="project-description">
-                    An advanced machine learning model that predicted the 2024 UEFA European Championship outcomes 
-                    using historical FIFA rankings and international match data. Showcases sophisticated statistical modeling and sports analytics.
+                    A machine learning model that predicted the 2024 UEFA European Championship outcomes 
+                    using historical FIFA rankings and international match data. Showcases statistical modeling and sports analytics.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
