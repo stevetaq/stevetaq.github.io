@@ -20,7 +20,8 @@ nav-menu: true
                 Where <span class="accent-text">Technology</span> meets <span class="accent-text">Sports Analytics</span>
             </div>
             <p class="hero-description">
-		Here are some of the things I've been working on recently, combining my interests in data science, programming, and sports analytics.
+                Here are some of the things I've been working on recently, combining my interests in 
+                data science, programming, and sports analytics.
             </p>
         </div>
         <div class="hero-visual">
@@ -72,7 +73,9 @@ nav-menu: true
                     <div class="project-field">Sports Analytics</div>
                 </div>
                 <p class="project-description">
-A personal and insightful football analytics platform I created as a hobbyist football data scientist. I have a deep love for football and a strong dedication to analyzing the game from a data-driven perspective. Pitch IQ is the culmination of my efforts to share unique insights and provide a fresh perspective on the world of football.
+                    A revolutionary football analytics platform born from passion and data-driven insights. 
+                    As a hobbyist football data scientist, I've created a comprehensive ecosystem that transforms 
+                    raw match data into compelling narratives and strategic intelligence.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -117,7 +120,8 @@ A personal and insightful football analytics platform I created as a hobbyist fo
                     <div class="project-field">Sports Blogging</div>
                 </div>
                 <p class="project-description">
-Cannon IQ is a dedicated substack blog focusing exclusively on  Arsenal. As a die-hard Gunners, I delve into the tactics, player analysis, and financial dynamics specific to Arsenal. Cannon IQ is my way of connecting with sports analytics and Arsneal community  providing my perspective on football and data.
+                    An exclusive Arsenal-focused analytical blog where tactical genius meets financial intelligence. 
+                    Deep-dive analyses, player performance metrics, and strategic insights exclusively for the Gunners faithful.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -162,7 +166,8 @@ Cannon IQ is a dedicated substack blog focusing exclusively on  Arsenal. As a di
                     <div class="project-field">Machine Learning</div>
                 </div>
                 <p class="project-description">
-				In order to help develop my technical skills in Data Science, I started and documented a project going through how to work with and create an algorithm with spotify's python API.
+                    A sophisticated music recommendation system leveraging Spotify's API and advanced machine learning algorithms. 
+                    Demonstrates proficiency in API integration, data processing, and algorithmic thinking.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -207,7 +212,8 @@ Cannon IQ is a dedicated substack blog focusing exclusively on  Arsenal. As a di
                     <div class="project-field">Predictive Analytics</div>
                 </div>
                 <p class="project-description">
-				This project involves building a machine learning model to predict the outcomes of the 2024 UEFA European Football Championship (Euros). By leveraging historical FIFA rankings and international match results, the model aims to accurately forecast the tournament's final match and the eventual winner.
+                    An advanced machine learning model that predicted the 2024 UEFA European Championship outcomes 
+                    using historical FIFA rankings and international match data. Showcases sophisticated statistical modeling and sports analytics.
                 </p>
                 <div class="project-highlights">
                     <div class="highlight-item">
@@ -242,7 +248,8 @@ Cannon IQ is a dedicated substack blog focusing exclusively on  Arsenal. As a di
         <div class="cta-text">
             <h2 class="cta-title">Want to see more insights?</h2>
             <p class="cta-description">
-I also write about sports in general and tech stuff that interests me. Feel free to check out some of my other writing if you're curious.
+                I also write about sports analytics and tech stuff that interests me. 
+                Feel free to check out some of my other writing if you're curious.
             </p>
         </div>
         <div class="cta-action">
@@ -436,12 +443,12 @@ body {
 }
 
 .projects-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
 }
 
 .project-card {
@@ -459,27 +466,22 @@ body {
 }
 
 .featured-card {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
+    /* Remove featured card special styling to make all cards uniform */
 }
 
 .project-image {
     position: relative;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
-}
-
-.featured-card .project-image {
-    height: auto;
 }
 
 .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease;
+    background: white;
+    padding: 1rem;
 }
 
 .project-card:hover .project-image img {
@@ -522,7 +524,7 @@ body {
 }
 
 .project-content {
-    padding: 2.5rem;
+    padding: 1.5rem;
 }
 
 .project-header {
@@ -533,7 +535,7 @@ body {
 }
 
 .project-title {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 800;
     color: #1a202c;
     margin-bottom: 0.5rem;
@@ -551,29 +553,34 @@ body {
 
 .project-description {
     color: #4a5568;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .project-highlights {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .highlight-item {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     color: #2d3748;
     font-weight: 500;
+    font-size: 0.8rem;
 }
 
 .highlight-icon {
-    font-size: 1.2rem;
-    width: 2rem;
+    font-size: 1rem;
+    width: 1.5rem;
     text-align: center;
 }
 
@@ -586,13 +593,14 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 12px;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    font-size: 0.9rem;
 }
 
 .btn-primary {
@@ -741,8 +749,8 @@ body {
         text-align: center;
     }
     
-    .featured-card {
-        grid-template-columns: 1fr;
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .cta-content {
@@ -763,7 +771,7 @@ body {
     }
     
     .project-content {
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
     .cta-title {

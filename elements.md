@@ -566,7 +566,7 @@ body {
 
 .competencies-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
@@ -750,12 +750,10 @@ body {
 }
 
 .company-logo {
-    width: 50px;
-    height: 50px;
-    background: white;
-    border-radius: 8px;
-    padding: 0.5rem;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
+    margin-left: -10px;
 }
 
 .company-logo img {
@@ -784,4 +782,284 @@ body {
     padding: 0;
 }
 
-.
+.experience-responsibilities li {
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.experience-responsibilities li::before {
+    content: '•';
+    color: #667eea;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Projects Resume */
+.projects-grid-resume {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.project-card-resume {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-resume:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.project-image-resume {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.project-image-resume img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+.project-content-resume {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title-resume {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.project-details-resume {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    flex: 1;
+    text-align: left;
+}
+
+.project-details-resume li {
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.project-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.project-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(102, 126, 234, 0.4);
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 6rem 0;
+    background: white;
+}
+
+.skills-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.skills-category {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.skills-category:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.skills-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.skills-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.skills-icon i {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.skills-category-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.skills-list li {
+    background: #f8fafc;
+    padding: 1rem;
+    border-radius: 12px;
+    color: #4a5568;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes glow {
+    0% { opacity: 0; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes scroll {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    
+    .competencies-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .skills-categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .projects-grid-resume {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .competencies-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .roles-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .skills-categories {
+        grid-template-columns: 1fr;
+    }
+    
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+    
+    .skills-list li {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+    
+    .projects-grid-resume {
+        grid-template-columns: 1fr;
+    }
+    
+    .education-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .section-container {
+        padding: 0 1rem;
+    }
+}

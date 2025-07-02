@@ -12,9 +12,6 @@ nav-menu: true
       <div class="passport-photo">
         <img src="assets/images/new_pic.png" alt="Stephen Ahiabah-Quarshie" />
       </div>
-      <!-- <div class="passport-stamp">
-        <div class="stamp-inner">VERIFIED</div> -->
-      </div>
     </div>
     
     <div class="professional-summary">
@@ -233,29 +230,6 @@ nav-menu: true
   object-fit: cover;
 }
 
-.passport-stamp {
-  position: absolute;
-  top: -10px;
-  right: -15px;
-  width: 60px;
-  height: 60px;
-  border: 3px solid #e74c3c;
-  border-radius: 50%;
-  background: rgba(231, 76, 60, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotate(15deg);
-}
-
-.stamp-inner {
-  color: #e74c3c;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
-  line-height: 1;
-}
-
 .professional-summary {
   flex: 1;
   background: white;
@@ -272,6 +246,11 @@ nav-menu: true
   border-bottom: 2px solid #3498db;
   padding-bottom: 8px;
   font-weight: bold;
+}
+
+.professional-summary p {
+  color: #2c3e50;
+  line-height: 1.6;
 }
 
 .passport-section {
@@ -303,12 +282,14 @@ nav-menu: true
 .passport-details p {
   margin: 8px 0;
   font-weight: 500;
+  color: #2c3e50;
 }
 
 .about-content p {
   margin-bottom: 15px;
   line-height: 1.6;
   text-align: justify;
+  color: #2c3e50;
 }
 
 .skills-container {
@@ -407,6 +388,11 @@ nav-menu: true
   border: 2px solid #bdc3c7;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.passport-footer p {
+  color: #2c3e50;
+  margin-bottom: 15px;
 }
 
 .passport-button {
