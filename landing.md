@@ -58,7 +58,7 @@ nav-menu: true
         <!-- Project 1: Pitch IQ -->
         <div class="project-card featured-card">
             <div class="project-image">
-                <img src="{% link assets/images/PITCH IQ PRIMARY.png %}" alt="Pitch IQ" />
+                <img src="{% link assets/images/piqmain.png %}" alt="Pitch IQ" />
                 <div class="image-overlay">
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
@@ -68,8 +68,8 @@ nav-menu: true
                 </div>
             </div>
             <div class="project-content">
+                <div class="project-field">Sports Analytics</div>
                 <div class="project-header">
-                    <div class="project-field">Sports Analytics</div>
                     <h3 class="project-title">Pitch IQ</h3>
                 </div>
                 <p class="project-description">
@@ -105,7 +105,7 @@ nav-menu: true
         <!-- Project 2: Cannon IQ -->
         <div class="project-card">
             <div class="project-image">
-                <img src="{% link assets/images/piqmain.png %}" alt="Cannon IQ" />
+                <img src="{% link assets/images/Cannon IQ Main.png %}" alt="Cannon IQ" />
                 <div class="image-overlay">
                     <div class="project-tech">
                         <span class="tech-tag">Substack</span>
@@ -115,8 +115,8 @@ nav-menu: true
                 </div>
             </div>
             <div class="project-content">
+                <div class="project-field">Sports Blogging</div>
                 <div class="project-header">
-                    <div class="project-field">Sports Blogging</div>
                     <h3 class="project-title">Cannon IQ</h3>
                 </div>
                 <p class="project-description">
@@ -161,8 +161,8 @@ nav-menu: true
                 </div>
             </div>
             <div class="project-content">
+                <div class="project-field">Machine Learning</div>
                 <div class="project-header">
-                    <div class="project-field">Machine Learning</div>
                     <h3 class="project-title">Spotify Recommendation Engine</h3>
                 </div>
                 <p class="project-description">
@@ -207,8 +207,8 @@ nav-menu: true
                 </div>
             </div>
             <div class="project-content">
+                <div class="project-field">Predictive Analytics</div>
                 <div class="project-header">
-                    <div class="project-field">Predictive Analytics</div>
                     <h3 class="project-title">UEFA Euros 2024 Predictor</h3>
                 </div>
                 <p class="project-description">
@@ -527,20 +527,6 @@ body {
     padding: 1.5rem;
 }
 
-.project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-}
-
-.project-title {
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: #1a202c;
-    margin: 0;
-}
-
 .project-field {
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
@@ -549,6 +535,19 @@ body {
     font-size: 0.8rem;
     font-weight: 600;
     white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.project-header {
+    margin-bottom: 1.5rem;
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1a202c;
+    margin: 0;
 }
 
 .project-description {

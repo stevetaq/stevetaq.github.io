@@ -39,9 +39,9 @@ nav-menu: true
 <!-- Professional Summary -->
 <section id="summary" class="summary-section">
     <div class="section-container">
-        <h2 class="section-title">🎯 Professional Summary</h2>
+        <h2 class="section-title">Professional Summary</h2>
         <div class="summary-card">
-            <p class="summary-text">I am a risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. As the Lead Model Developer for JP Morgan's International Consumer Banking (ICB) Loss Forecasting, I spearhead the development and validation of critical risk models that drive strategic decision-making. I transform complex financial data into actionable insights for senior stakeholders, combining strong technical proficiency in data science tools with deep domain knowledge in consumer banking risk assessment.</p>
+            <p class="summary-text">I am a risk modeling specialist with extensive expertise in credit risk analytics and quantitative finance. As the Lead Model Developer for JP Morgan's International Consumer Banking (ICB) Loss Forecasting, I spearhead the development and validation of critical risk models that drive strategic decision-making budgeting and credit strategy. I transform complex financial data into actionable insights for senior stakeholders, combining s strong technical proficiency in data science tools with deep domain knowledge in consumer and instutional banking risk.</p>
         </div>
     </div>
 </section>
@@ -49,7 +49,7 @@ nav-menu: true
 <!-- About Me Details -->
 <section id="details" class="details-section">
     <div class="section-container">
-        <h2 class="section-title">📑 About Me</h2>
+        <h2 class="section-title">About Me</h2>
         
         <!-- Personal Details Card -->
         <div class="details-card">
@@ -68,7 +68,7 @@ nav-menu: true
                 </div>
                 <div class="detail-item">
                     <h4 class="detail-label">Specialization</h4>
-                    <p class="detail-value">Industrial application of thermoelectric and nuclear materials</p>
+                    <p class="detail-value">Stress Testing, Economic Scenario Analysis & Loss Forecasting</p>
                 </div>
             </div>
         </div>

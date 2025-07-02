@@ -144,7 +144,7 @@ nav-menu: true
                     <div class="experience-header">
                         <div class="company-info">
                             <div class="company-logo">
-                                <img src="assets/images/png-clipart-jpmorgan-chase-logo-jpmorgan-corporate-challenge-j-p-morgan-co-others-miscellaneous-text.png" alt="JP Morgan Logo" />
+                                <img src="assets/images/JPMorgan_Chase-Logo.wine.png" alt="JP Morgan Logo" />
                             </div>
                             <div class="position-details">
                                 <h4 class="position-title">JP Morgan | Lead Risk Model Developer</h4>
@@ -188,7 +188,7 @@ nav-menu: true
                     <div class="experience-header">
                         <div class="company-info">
                             <div class="company-logo">
-                                <img src="assets/images/png-clipart-natwest-markets-island-games-bank-logo-business-bank-angle-text-thumbnail.png" alt="NatWest Logo" />
+                                <img src="assets/images/natwest-logo.png" alt="NatWest Logo" />
                             </div>
                             <div class="position-details">
                                 <h4 class="position-title">NatWest Holdings | NatWest Markets Credit Stress Testing Analyst</h4>
@@ -913,7 +913,7 @@ body {
 
 .skills-categories {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
