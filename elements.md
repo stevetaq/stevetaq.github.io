@@ -965,9 +965,9 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
 
 .skills-list li {
@@ -1020,10 +1020,6 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .skills-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
     .projects-grid-resume {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1040,16 +1036,6 @@ body {
     
     .skills-categories {
         grid-template-columns: 1fr;
-    }
-    
-    .skills-list {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.8rem;
-    }
-    
-    .skills-list li {
-        font-size: 0.8rem;
-        padding: 0.8rem;
     }
     
     .projects-grid-resume {
