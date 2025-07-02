@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: About Me
-image: assets/images/new_pic.png
+# image: assets/images/new_pic.png
 nav-menu: true
 ---
 
@@ -12,8 +12,8 @@ nav-menu: true
       <div class="passport-photo">
         <img src="assets/images/new_pic.png" alt="Stephen Ahiabah-Quarshie" />
       </div>
-      <div class="passport-stamp">
-        <div class="stamp-inner">VERIFIED</div>
+      <!-- <div class="passport-stamp">
+        <div class="stamp-inner">VERIFIED</div> -->
       </div>
     </div>
     
