@@ -33,6 +33,82 @@
         <!-- One -->
         {% include tiles.html %}
 
+        <!-- Industry Expertise Section -->
+        <section id="expertise" class="expertise-section">
+            <div class="expertise-container">
+                <div class="expertise-header">
+                    <h2 class="expertise-title">INDUSTRY EXPERTISE</h2>
+                    <p class="expertise-description">
+                        Deep domain knowledge across financial services, quantitative analysis, regulatory frameworks, 
+                        and sports analytics built through years of hands-on experience.
+                    </p>
+                </div>
+                
+                <div class="expertise-grid">
+                    <!-- Financial Services -->
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                                <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/>
+                            </svg>
+                        </div>
+                        <h3 class="expertise-card-title">Financial Services</h3>
+                        <p class="expertise-card-description">
+                            7+ years in banking and risk management
+                        </p>
+                    </div>
+
+                    <!-- Quantitative Analysis -->
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7,10 12,15 17,10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="expertise-card-title">Quantitative Analysis</h3>
+                        <p class="expertise-card-description">
+                            Statistical modeling and predictive analytics
+                        </p>
+                    </div>
+
+                    <!-- Regulatory Knowledge -->
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="expertise-card-title">Regulatory Knowledge</h3>
+                        <p class="expertise-card-description">
+                            Deep understanding of banking regulations
+                        </p>
+                    </div>
+
+                    <!-- Sports Data Science -->
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                                <path d="M2 12h20"/>
+                            </svg>
+                        </div>
+                        <h3 class="expertise-card-title">Sports Data Science</h3>
+                        <p class="expertise-card-description">
+                            Football analytics and predictive modelling
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Two -->
         <!-- <section id="two">
             <div class="inner">
@@ -49,6 +125,173 @@
     </div>
 
     {% include footer.html %}
+
+    <style>
+        .expertise-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .expertise-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.2) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .expertise-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .expertise-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .expertise-title {
+            font-size: 3rem;
+            font-weight: 900;
+            color: white;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.1em;
+        }
+
+        .expertise-description {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .expertise-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+
+        .expertise-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, rgba(255, 215, 0, 0.3), rgba(255, 107, 107, 0.3), rgba(78, 205, 196, 0.3), rgba(69, 183, 209, 0.3));
+            border-radius: 22px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+
+        .expertise-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .expertise-card:hover::before {
+            opacity: 1;
+        }
+
+        .expertise-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .expertise-icon svg {
+            width: 40px;
+            height: 40px;
+            color: white;
+        }
+
+        .expertise-card:hover .expertise-icon {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
+        .expertise-card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .expertise-card-description {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .expertise-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .expertise-title {
+                font-size: 2rem;
+            }
+            
+            .expertise-description {
+                font-size: 1rem;
+            }
+            
+            .expertise-card {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .expertise-section {
+                padding: 4rem 0;
+            }
+            
+            .expertise-container {
+                padding: 0 1rem;
+            }
+            
+            .expertise-header {
+                margin-bottom: 3rem;
+            }
+            
+            .expertise-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 
 </body>
 
