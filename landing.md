@@ -69,8 +69,8 @@ nav-menu: true
             </div>
             <div class="project-content">
                 <div class="project-header">
-                    <h3 class="project-title">Pitch IQ</h3>
                     <div class="project-field">Sports Analytics</div>
+                    <h3 class="project-title">Pitch IQ</h3>
                 </div>
                 <p class="project-description">
                     A revolutionary football analytics platform born from passion and data-driven insights. 
@@ -105,7 +105,7 @@ nav-menu: true
         <!-- Project 2: Cannon IQ -->
         <div class="project-card">
             <div class="project-image">
-                <img src="{% link assets/images/Cannon IQ Main.png %}" alt="Cannon IQ" />
+                <img src="{% link assets/images/piqmain.png %}" alt="Cannon IQ" />
                 <div class="image-overlay">
                     <div class="project-tech">
                         <span class="tech-tag">Substack</span>
@@ -116,8 +116,8 @@ nav-menu: true
             </div>
             <div class="project-content">
                 <div class="project-header">
-                    <h3 class="project-title">Cannon IQ</h3>
                     <div class="project-field">Sports Blogging</div>
+                    <h3 class="project-title">Cannon IQ</h3>
                 </div>
                 <p class="project-description">
                     An exclusive Arsenal-focused analytical blog where tactical genius meets financial intelligence. 
@@ -162,8 +162,8 @@ nav-menu: true
             </div>
             <div class="project-content">
                 <div class="project-header">
-                    <h3 class="project-title">Spotify Recommendation Engine</h3>
                     <div class="project-field">Machine Learning</div>
+                    <h3 class="project-title">Spotify Recommendation Engine</h3>
                 </div>
                 <p class="project-description">
                     A sophisticated music recommendation system leveraging Spotify's API and advanced machine learning algorithms. 
@@ -208,8 +208,8 @@ nav-menu: true
             </div>
             <div class="project-content">
                 <div class="project-header">
-                    <h3 class="project-title">UEFA Euros 2024 Predictor</h3>
                     <div class="project-field">Predictive Analytics</div>
+                    <h3 class="project-title">UEFA Euros 2024 Predictor</h3>
                 </div>
                 <p class="project-description">
                     An advanced machine learning model that predicted the 2024 UEFA European Championship outcomes 
@@ -538,7 +538,7 @@ body {
     font-size: 1.3rem;
     font-weight: 800;
     color: #1a202c;
-    margin-bottom: 0.5rem;
+    margin: 0;
 }
 
 .project-field {
@@ -794,8 +794,6 @@ body {
     }
     
     .project-header {
-        flex-direction: column;
-        gap: 1rem;
         align-items: flex-start;
     }
 }

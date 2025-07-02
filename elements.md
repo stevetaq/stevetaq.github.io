@@ -368,6 +368,23 @@ nav-menu: true
                     <li>Communication</li>
                 </ul>
             </div>
+            
+            <div class="skills-category">
+                <div class="skills-header">
+                    <div class="skills-icon">
+                        <i class="material-icons">analytics</i>
+                    </div>
+                    <h3 class="skills-category-title">Analytics</h3>
+                </div>
+                <ul class="skills-list">
+                    <li>Data Analysis</li>
+                    <li>Statistical Modeling</li>
+                    <li>Risk Assessment</li>
+                    <li>Machine Learning</li>
+                    <li>Financial Modeling</li>
+                    <li>Forecasting</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
