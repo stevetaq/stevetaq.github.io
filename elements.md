@@ -103,7 +103,7 @@ nav-menu: true
                 
                 <div class="role-card">
                     <h3 class="role-title">Quantitative Stress Testing Analyst</h3>
-                    <p class="role-description">As a Quantitative Stress Testing Analyst at NatWest Group, I conducted and analysed regulatory and internal stress tests, covering IFRS9, Basel Pillar II, and III requirements. analysis using Python, advanced Excel, and SQL. I co-lead the development and implementation of Probability of Default models, as well as leading the development of an purpose built Mortgage Arrears prediction model. My focus was to identify key drivers of the stress results and communicate business implications for NatWest Group's retail lending products under both business-as-usual conditions and adverse economic stresses.</p>
+                    <p class="role-description">As a Quantitative Stress Testing Analyst at NatWest Group, I conducted and analysed regulatory and internal stress tests, covering IFRS9, Basel Pillar II, and III requirements. analysis using Python, advanced Excel, and SQL. I co-lead the development and implementation of Probability of Default models, as well as leading the development of a purpose built Mortgage Arrears prediction model. My focus was to identify key drivers of the stress results and communicate business implications for NatWest Group's retail lending products under both business-as-usual conditions and adverse economic stresses.</p>
                 </div>
                 
                 <div class="role-card">
