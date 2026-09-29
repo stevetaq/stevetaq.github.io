@@ -93,7 +93,7 @@ nav-menu: true
     <div class="section-container">
         <h2 class="section-title">Summary of Experience</h2>
         <div class="summary-content">
-            <p class="summary-intro">I am a skilled Quantitative Risk Analyst/Data Scientist. With a degree in Materials Science and Engineering, I have several years of experience in developing quantitative methods to forecast credit impairments and risk-weighted assets, reviewing stress testing results, presenting to senior management, and creating automated reporting dashboards. My expertise lies in Python, advanced Excel, and SQL, as well as a good understanding of the regulatory landscape with regards to IFRS9 and the Basel accords. Here is summary of my key roles:</p>
+            <p class="summary-intro">I am a skilled Quantitative Risk Analyst/Data Scientist. My background in Materials Science and Engineering informs several years of experience developing quantitative methods to forecast credit impairments and risk-weighted assets, reviewing stress-testing results, presenting to senior management and creating automated reporting dashboards. My expertise lies in Python, advanced Excel and SQL, alongside a strong understanding of IFRS 9 and the Basel accords. Here is a summary of my key roles:</p>
             
             <div class="roles-grid">
                 <div class="role-card">

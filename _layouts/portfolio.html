@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe6"><meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="Stephen Ahiabah — Data engineer & credit risk specialist"><meta property="og:description" content="Nine years across trusted data, credit risk and model development."><meta property="og:type" content="website"><meta property="og:url" content="{{ site.url }}"><meta property="og:image" content="{{ '/assets/images/og.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Stephen Ahiabah — Data engineer & credit risk specialist"><meta name="twitter:description" content="Nine years across trusted data, credit risk and model development."><meta name="twitter:image" content="{{ '/assets/images/og.png' | absolute_url }}">
+  <title>{{ page.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Stephen Ahiabah, home"><span class="wordmark-mark">SA</span><span>Stephen Ahiabah</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-contact" href="mailto:stephen.ahiabah@gmx.com">Say hello</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">London · Data engineering · Credit risk</p>
+        <h1 id="hero-title">I make complex data<br><em>useful and trusted.</em></h1>
+        <p class="hero-intro">I’m Stephen, a data engineer and credit risk specialist. For nine years I’ve built models, fixed data problems and helped teams make better decisions at JPMorgan Chase and NatWest.</p>
+        <div class="hero-actions"><a class="text-link" href="#work">See selected work <span aria-hidden="true">↓</span></a><a class="text-link muted" href="https://github.com/steveaq" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <figure class="portrait-wrap"><img src="{{ '/assets/images/new_pic.png' | relative_url }}" alt="Portrait of Stephen Ahiabah" width="1170" height="1092"><figcaption>Data Engineer, JPMorgan Chase<br>London, UK</figcaption></figure>
+      <p class="hero-index" aria-hidden="true">01 / 04</p>
+    </section>
+
+    <section class="proof" aria-label="Career highlights"><p><strong>9 years</strong><span>in banking and data</span></p><p><strong>7+</strong><span>model issues cleared</span></p><p><strong>2 FTE</strong><span>manual work removed</span></p><p><strong>100+</strong><span>colleagues upskilled</span></p></section>
+
+    <section class="section projects" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><p class="section-number">02 / Selected work</p><h2 id="work-title">Projects with a point of view.</h2><p>Football, forecasting and the occasional useful side project. Built to answer real questions, not fill a portfolio grid.</p></div>
+      <div class="project-list">
+        <article class="project project-featured">
+          <a class="project-image" href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer" aria-label="Read CannonIQ on Substack"><img src="{{ '/assets/images/Cannon IQ Main.png' | relative_url }}" alt="CannonIQ publication artwork" width="500" height="500"></a>
+          <div class="project-copy"><p class="project-meta">Writing / Football analytics · 2024—now</p><h3>CannonIQ</h3><p>An independent publication about Arsenal, football economics and modelling. Tactical ideas meet financial data and reproducible analysis—with more than 500 subscribers reading along.</p><ul class="project-tags" aria-label="Technologies and topics"><li>Python</li><li>Poisson models</li><li>Data writing</li></ul><a class="project-link" href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer">Read the publication <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <a class="project-image" href="https://github.com/steveaq/ML-2024-Euros-Model" target="_blank" rel="noopener noreferrer" aria-label="View UEFA EURO 2024 predictor on GitHub"><img src="{{ '/assets/images/png_tree.png' | relative_url }}" alt="Decision tree diagram from the EURO 2024 model" width="360" height="360"></a>
+          <div class="project-copy"><p class="project-meta">Machine learning / Forecasting · 2024</p><h3>UEFA EURO 2024 predictor</h3><p>An end-to-end tournament model combining team data, XGBoost and Monte Carlo simulation to turn uncertain match outcomes into a coherent forecast.</p><ul class="project-tags" aria-label="Technologies"><li>XGBoost</li><li>scikit-learn</li><li>Monte Carlo</li></ul><a class="project-link" href="https://github.com/steveaq/ML-2024-Euros-Model" target="_blank" rel="noopener noreferrer">View the code <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <a class="project-image project-image-dark" href="https://steveaq.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open Pitch IQ"><img src="{{ '/assets/images/piqmain.png' | relative_url }}" alt="Pitch IQ mark" width="211" height="217"></a>
+          <div class="project-copy"><p class="project-meta">Sports data / Independent build</p><h3>Pitch IQ</h3><p>A home for exploratory football analysis: collecting match data, testing ideas and turning model output into stories that make sense away from a notebook.</p><ul class="project-tags" aria-label="Technologies and topics"><li>Python</li><li>Match data</li><li>Visualisation</li></ul><a class="project-link" href="https://steveaq.github.io/" target="_blank" rel="noopener noreferrer">Explore Pitch IQ <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="section-number">03 / Experience</p><h2 id="experience-title">From risk models to trusted data.</h2><p>My career has moved closer to the source of the problem: from explaining portfolio risk, to building the models, to making the underlying data dependable.</p></div>
+      <div class="timeline">
+        <article class="role is-current"><div class="role-when"><span>Now</span><time datetime="2026-09">Sep 2026</time></div><div class="role-main"><p class="role-company">JPMorgan Chase &amp; Co.</p><h3>Data Engineer</h3><p>Sourcing and quality-checking data for Asset &amp; Wealth Management. I trace lineage under BCBS 239, fix issues at source and make critical datasets ready for analytics and AI.</p></div><ul class="role-tags"><li>Data lineage</li><li>BCBS 239</li><li>Data quality</li></ul></article>
+        <article class="role"><div class="role-when"><time datetime="2024-09">Sep 2024</time><time datetime="2026-09">Sep 2026</time></div><div class="role-main"><p class="role-company">JPMorgan Chase &amp; Co.</p><h3>Lead Model Developer</h3><p>Led IFRS 9 and CECL development for Chase UK. Cleared seven inherited model issues, removed two FTE of forecasting effort, and moved the wider risk department onto GitHub and modern delivery practices.</p></div><ul class="role-tags"><li>IFRS 9 / CECL</li><li>Python</li><li>SageMaker</li></ul></article>
+        <article class="role"><div class="role-when"><time datetime="2023-01">Jan 2023</time><time datetime="2024-09">Sep 2024</time></div><div class="role-main"><p class="role-company">NatWest Group</p><h3>Franchise Lead, UK Retail</h3><p>Ran stress testing and loss forecasting for a roughly £200bn retail portfolio. Built early-forbearance data pipelines and helped cut IFRS 9 staging runtimes from one hour to ten minutes.</p></div><ul class="role-tags"><li>Stress testing</li><li>PySpark</li><li>ARIMAX</li></ul></article>
+        <article class="role"><div class="role-when"><time datetime="2019-09">Sep 2019</time><time datetime="2023-01">Jan 2023</time></div><div class="role-main"><p class="role-company">NatWest Group</p><h3>Senior Quantitative Analyst</h3><p>Challenged stress-test results across NatWest Markets and Ulster Bank, built analysis pipelines and dashboards, and turned model output into decisions for senior management.</p></div><ul class="role-tags"><li>Credit risk</li><li>Tableau</li><li>Python</li></ul></article>
+        <details class="earlier-role"><summary>Earlier: Graduate Analytics Analyst, NatWest Group <span>2017—2019</span></summary><p>Rotations across data innovation, Coutts Private Banking, and fraud and security—working with SAS, SQL, Tableau and scikit-learn.</p></details>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-number">04 / About</p><h2 id="about-title">Clear thinking, useful systems.</h2></div>
+      <div class="about-grid"><div class="about-copy"><p>I’m interested in the unglamorous part of data work: where a definition is unclear, a process is manual, or nobody quite trusts the number. That’s usually where the most valuable work begins.</p><p>My background spans credit risk, forecasting, data engineering and governance. Outside work, I use football as a sandbox for modelling and writing.</p></div><div class="skills"><p class="skills-label">Working knowledge</p><ul><li><span>01</span>Data engineering &amp; lineage</li><li><span>02</span>Credit risk &amp; forecasting</li><li><span>03</span>Python, SQL &amp; PySpark</li><li><span>04</span>Model governance</li><li><span>05</span>Technical communication</li></ul></div></div>
+    </section>
+
+    <section class="contact-cta" aria-labelledby="contact-title"><p class="eyebrow">Have a difficult data problem?</p><h2 id="contact-title">Let’s compare notes.</h2><a href="mailto:stephen.ahiabah@gmx.com">stephen.ahiabah@gmx.com <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><p>© <span id="year">2026</span> Stephen Ahiabah</p><div><a href="https://github.com/steveaq" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://uk.linkedin.com/in/stephen-ahiabah-3a9886a6" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://bsky.app/profile/pitchiq.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></div><a href="#top">Back to top ↑</a></footer>
+  <script src="{{ '/assets/js/portfolio.js' | relative_url }}" defer></script>
+</body>
+</html>
