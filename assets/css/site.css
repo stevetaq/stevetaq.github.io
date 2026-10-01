@@ -295,6 +295,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em}
   body.menu-open{overflow:hidden}
   .intro,.loss-model,.page-head,.section-head,.pitch-wrap,.project-grid,.about-hero,.routes{grid-template-columns:1fr}
   .intro-portrait{max-width:320px}
+  .gantt-rows{overflow:visible}
+  .gantt-row{height:58px}
+  .gantt-bar{top:30px;bottom:8px;padding:0}
+  .gantt-bar .l{position:absolute;left:0;bottom:calc(100% + 5px);font-size:.74rem;color:var(--ink)}
+  .gantt-bar.flip .l{left:auto;right:0}
+  .gantt-bar small{display:none}
+  .gantt-bar.now .out{right:0;bottom:calc(100% + 5px);top:auto}
   .sim-readout{grid-template-columns:repeat(2,1fr)}
   .sim-readout .btn{grid-column:1/-1;justify-self:start}
   .services{grid-template-columns:1fr}
@@ -328,13 +335,6 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em}
   .cta-band a+a{border-left:0;border-top:1px solid var(--line)}
   .job{grid-template-columns:1fr;gap:1rem}
   .job ul{grid-column:1}
-  .gantt-rows{overflow:visible}
-  .gantt-row{height:58px}
-  .gantt-bar{top:30px;bottom:8px;padding:0}
-  .gantt-bar .l{position:absolute;left:0;bottom:calc(100% + 5px);font-size:.74rem;color:var(--ink)}
-  .gantt-bar.flip .l{left:auto;right:0}
-  .gantt-bar small{display:none}
-  .gantt-bar.now .out{right:0;bottom:calc(100% + 5px);top:auto}
   .gantt-axis span:nth-child(even){visibility:hidden}
   .player{width:80px}
   .player i{width:32px;height:32px;font-size:.72rem}
