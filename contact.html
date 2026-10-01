@@ -2,15 +2,50 @@
 layout: site
 title: Contact
 page_key: contact
-description: Contact Stephen Ahiabah about risk, data engineering, statistical modelling or independent analytics work.
+description: Get in touch with Stephen Ahiabah about data, risk modelling, statistics or something you read on CannonIQ.
+scripts:
+  - /assets/js/contact.js
 ---
-<section class="contact-page section-shell">
-  <div class="contact-heading" data-reveal><p class="kicker">Contact</p><h1>Get in Touch.</h1><p>If you would like to discuss a data, risk or modelling problem, project, collaboration or role, I’d be glad to hear from you.</p></div>
-  <div class="contact-options" data-reveal>
-    <a href="mailto:stephen.ahiabah@gmx.com"><span>Email</span><strong>stephen.ahiabah@gmx.com</strong><i>↗</i></a>
-    <a href="https://www.linkedin.com/in/stephen-a-3a9886a6/" target="_blank" rel="noopener noreferrer"><span>Professional</span><strong>LinkedIn</strong><i>↗</i></a>
-    <a href="https://github.com/steveaq" target="_blank" rel="noopener noreferrer"><span>Code</span><strong>GitHub</strong><i>↗</i></a>
-    <a href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer"><span>Writing</span><strong>CannonIQ</strong><i>↗</i></a>
-  </div>
-  <div class="contact-note" data-reveal><p class="kicker">A Helpful First Message</p><p>Please feel free to share a little about what you’re working on and where you think I might be able to help. I’d be very happy to hear from you.</p></div>
-</section>
+<header class="contact-head shell">
+  <p class="kicker">Contact</p>
+  <h1>Get in touch</h1>
+  <a class="email" href="mailto:{{ site.email }}" data-email>{{ site.email }}</a><button class="copy-btn" type="button" data-copy="{{ site.email }}">Copy</button>
+</header>
+
+<div class="routes shell">
+  <section id="work" aria-labelledby="work-title">
+    <p class="kicker">Data, modelling and statistics</p>
+    <h2 id="work-title">Questions, ideas and collaborations</h2>
+    <p>If you're working on something involving data, forecasting or risk modelling and want to compare notes, or you have a question about one of my projects, I'm happy to hear about it.</p>
+    <form class="brief" id="brief" data-email="{{ site.email }}">
+      <fieldset>
+        <legend>What's it about?</legend>
+        <div class="chips">
+          <label><input type="checkbox" name="need" value="A data or modelling question"><span>A data or modelling question</span></label>
+          <label><input type="checkbox" name="need" value="One of your projects"><span>One of your projects</span></label>
+          <label><input type="checkbox" name="need" value="A collaboration idea"><span>A collaboration idea</span></label>
+          <label><input type="checkbox" name="need" value="Writing or speaking"><span>Writing or speaking</span></label>
+          <label><input type="checkbox" name="need" value="Something else"><span>Something else</span></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><label for="briefText">A few lines</label></legend>
+        <textarea id="briefText" name="detail" placeholder="What you're working on, or what you'd like to ask."></textarea>
+      </fieldset>
+      <div class="brief-foot"><small>This opens an email draft in your own mail app. Nothing is sent or stored by this site.</small><button class="btn btn-gold" type="submit">Open email draft ↗</button></div>
+    </form>
+  </section>
+
+  <section id="readers" aria-labelledby="readers-title">
+    <p class="kicker gold">From CannonIQ</p>
+    <h2 id="readers-title">Reading the newsletter</h2>
+    <p>Questions about a model, a correction, data you think I should look at, or an idea for a future piece. Replying to any CannonIQ email reaches me too.</p>
+    <a class="btn" href="mailto:{{ site.email }}?subject=CannonIQ%3A%20">Email about CannonIQ ↗</a>
+    <div class="channel-list">
+      <a href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer"><span>Newsletter</span><strong>CannonIQ on Substack</strong><i>↗</i></a>
+      <a href="https://bsky.app/profile/pitchiq.bsky.social" target="_blank" rel="noopener noreferrer"><span>Social</span><strong>Bluesky</strong><i>↗</i></a>
+      <a href="https://www.linkedin.com/in/stephen-a-3a9886a6/" target="_blank" rel="noopener noreferrer"><span>Professional</span><strong>LinkedIn</strong><i>↗</i></a>
+      <a href="https://github.com/steveaq" target="_blank" rel="noopener noreferrer"><span>Code</span><strong>GitHub</strong><i>↗</i></a>
+    </div>
+  </section>
+</div>

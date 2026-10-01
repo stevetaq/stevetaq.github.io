@@ -2,35 +2,51 @@
 layout: site
 title: About
 page_key: about
-description: About Stephen Ahiabah, a London-based risk and data professional with a background in statistics, modelling and engineering.
+description: About Stephen Ahiabah, a London-based data engineer and credit risk modeller with a background in materials science and engineering.
 ---
-<header class="page-hero about-hero section-shell">
-  <div><p class="kicker">About</p><h1>About Me.</h1></div>
-  <figure data-reveal><img src="{{ '/assets/images/new_pic.png' | relative_url }}" alt="Stephen Ahiabah in London"><figcaption>London, UK · 2026</figcaption></figure>
+<header class="about-hero shell">
+  <figure class="about-portrait"><img src="{{ '/assets/images/new_pic.png' | relative_url }}" alt="Stephen Ahiabah in London"><figcaption><span>London</span><span>2026</span></figcaption></figure>
+  <div>
+    <p class="kicker">About</p>
+    <h1>Stephen Ahiabah</h1>
+    <p class="big">A risk and data professional with an engineer's instinct for systems and a statistician's respect for <em>uncertainty</em>.</p>
+    <p>I studied Materials Science and Engineering at Manchester, where experimental work taught me to be precise about evidence and honest about limitations. Banking gave that discipline consequences: models, controls and data quality affect real portfolios, regulatory decisions and customers.</p>
+    <p>I enjoy the work that sits between specialties, where a model, a dataset and a business question have to agree.</p>
+  </div>
 </header>
 
-<section class="about-story section-shell ruled-top">
-  <div class="section-label"><p class="kicker">The Short Version</p></div>
-  <div class="story-lede" data-reveal><p>I’m a risk and data professional with an engineer’s instinct for systems and a statistician’s respect for uncertainty.</p></div>
-  <div class="story-columns" data-reveal><p>I studied Materials Science and Engineering at Manchester, where experimental work taught me to be precise about evidence and honest about limitations. Banking gave that discipline consequence: models, controls and data quality affect real portfolios, regulatory decisions and customers.</p><p>Over nine years I have worked across data innovation, private banking, fraud, quantitative analytics, stress testing, credit model development and data engineering. I enjoy the work that sits between specialties, where a model, a dataset and a business question have to agree.</p><p>That is also why I build football projects. Pitch IQ and CannonIQ let me test new methods, write more personally and explain statistical ideas to people who care about the subject more than the technique.</p></div>
-</section>
-
-<section class="beliefs dark-section section-shell">
-  <div class="section-label"><p class="kicker">Working Principles</p></div>
-  <div class="belief-list">
-    <article data-reveal><span>01</span><h2>Make the Data Traceable.</h2><p>Lineage, controls and documentation are part of delivering reliable analysis.</p></article>
-    <article data-reveal><span>02</span><h2>Be Clear About Uncertainty.</h2><p>Statistical output should state its assumptions, limitations and range of possible outcomes.</p></article>
-    <article data-reveal><span>03</span><h2>Automate Repeated Work.</h2><p>Automation should reduce manual effort while leaving a process that is easier to review and maintain.</p></article>
-    <article data-reveal><span>04</span><h2>Use Domain Knowledge.</h2><p>Models work best when the question is properly framed and the result is interpreted in context.</p></article>
+<section class="section shell" aria-labelledby="route-title">
+  <div class="section-head"><div><p class="kicker">The route here</p><h2 id="route-title">Career so far</h2></div></div>
+  <div class="route">
+    <div data-reveal><span>2013</span><h3>Materials Science</h3><p>University of Manchester. Experiments, error bars and engineering maths.</p></div>
+    <div data-reveal><span>2017</span><h3>Graduate analyst</h3><p>NatWest. Data innovation, Coutts private banking, fraud.</p></div>
+    <div data-reveal><span>2019</span><h3>Quantitative analyst</h3><p>Stress test challenge across NatWest Markets and Ulster Bank.</p></div>
+    <div data-reveal><span>2023</span><h3>Franchise lead</h3><p>Stress testing for a £200bn UK retail portfolio.</p></div>
+    <div data-reveal><span>2024</span><h3>Model lead</h3><p>JPMorgan Chase. IFRS 9 and CECL for a new business.</p></div>
+    <div data-reveal><span>2026</span><h3>Data engineer</h3><p>The data that every model depends on.</p></div>
   </div>
 </section>
 
-<section class="outside-work section-shell">
-  <div class="section-label"><p class="kicker">Beyond the Day Job</p></div>
-  <div class="outside-grid"><div data-reveal><h2>Football Analytics and Writing.</h2><p>I’m a lifelong Arsenal supporter and the person behind CannonIQ and Pitch IQ. What began as a way to learn football analytics became a sustained practice in modelling, software, visualisation and writing.</p><p>I’m interested in what data can add to football analysis, where it falls short and how to explain the methods without losing the subject itself.</p><a class="arrow-link" href="{{ '/projects.html' | relative_url }}">Explore the project portfolio <span aria-hidden="true">↗</span></a></div><aside class="project-note" data-reveal><p class="kicker">Independent Work</p><p>Player similarity, clustering, expected-points modelling, recruitment analysis and long-form football writing.</p></aside></div>
+<section class="section shell" aria-labelledby="rules-title">
+  <div class="section-head"><div><p class="kicker">How I work</p><h2 id="rules-title">Four working principles</h2></div></div>
+  <div class="rules">
+    <article data-reveal><span>01</span><h3>Make the data traceable</h3><p>Lineage, controls and documentation are part of delivering reliable analysis.</p></article>
+    <article data-reveal><span>02</span><h3>Be clear about uncertainty</h3><p>Output should state its assumptions, its limitations and the range of possible outcomes.</p></article>
+    <article data-reveal><span>03</span><h3>Automate repeated work</h3><p>Automation should cut manual effort and leave a process that is easier to review and maintain.</p></article>
+    <article data-reveal><span>04</span><h3>Use domain knowledge</h3><p>Models work best when the question is framed properly and the result is read in context.</p></article>
+  </div>
 </section>
 
-<section class="personal-facts section-shell ruled-top">
-  <div class="section-label"><p class="kicker">At a Glance</p></div>
-  <dl><div data-reveal><dt>Based</dt><dd>London, United Kingdom</dd></div><div data-reveal><dt>Education</dt><dd>Materials Science &amp; Engineering</dd></div><div data-reveal><dt>Professional focus</dt><dd>Trusted data, credit risk and statistical modelling</dd></div><div data-reveal><dt>Independent focus</dt><dd>Football analytics, economics and writing</dd></div><div data-reveal><dt>Tools I reach for</dt><dd>Python, SQL, PySpark, Git and a clear problem statement</dd></div></dl>
+<section class="section shell" aria-labelledby="outside-title">
+  <div class="section-head">
+    <div><p class="kicker">Outside work</p><h2 id="outside-title">Football analytics and writing</h2></div>
+    <p>I'm a lifelong Arsenal supporter and the person behind CannonIQ and Pitch IQ. What began as a way to learn football analytics became a long-running practice in modelling, software, visualisation and writing.</p>
+  </div>
+  <dl class="facts-grid">
+    <div data-reveal><dt>Based</dt><dd>London, United Kingdom</dd></div>
+    <div data-reveal><dt>Studied</dt><dd>Materials Science &amp; Engineering</dd></div>
+    <div data-reveal><dt>Day job</dt><dd>Data engineering at JPMorgan Chase</dd></div>
+    <div data-reveal><dt>Side work</dt><dd>CannonIQ and Pitch IQ</dd></div>
+    <div data-reveal><dt>Tools I reach for</dt><dd>Python, SQL, PySpark, Git</dd></div>
+  </dl>
 </section>
