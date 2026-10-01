@@ -61,3 +61,31 @@
 @media(max-width:980px){.page-about .about-hero{grid-template-columns:minmax(0,1fr) minmax(220px,.55fr);min-height:auto}.page-about .about-story{grid-template-columns:1fr 1fr}.page-about .about-story .section-label{grid-column:1/-1}.page-about .outside-grid{grid-template-columns:1fr}.page-contact .contact-page{grid-template-columns:1fr;align-content:start}.page-contact .contact-options,.page-contact .contact-note{max-width:720px}.page-contact .contact-note{grid-column:1}.global-contact h2{max-width:760px}}
 @media(max-width:700px){.page-about .about-hero,.page-about .about-story{grid-template-columns:1fr}.page-about .about-hero figure{width:min(82vw,360px);margin-left:auto}.page-about .about-story .section-label{grid-column:1}.page-about .story-lede{max-width:620px}.page-about .belief-list article{grid-template-columns:2rem 1fr}.page-about .belief-list article p{grid-column:2}.page-about .outside-grid{gap:2.5rem}}
 @media(max-width:640px){.page-about .about-hero{padding-top:3.5rem;padding-bottom:3.5rem;gap:2.5rem}.page-about .about-hero h1{font-size:clamp(3rem,13vw,4.2rem)}.page-about .about-hero figure{width:100%;margin:0}.page-about .about-story,.page-about .outside-work,.page-about .personal-facts,.page-about .beliefs{padding-top:3.75rem;padding-bottom:3.75rem}.page-about .story-lede p{font-size:clamp(1.8rem,8.5vw,2.4rem)}.page-about .belief-list article{grid-template-columns:1fr;gap:.65rem;padding:1.75rem 0}.page-about .belief-list article p{grid-column:1}.page-about .belief-list article>span{margin:0}.page-about .outside-grid h2{font-size:clamp(2.25rem,11vw,3rem)}.page-about .personal-facts dl div{padding:1.1rem 0}.page-contact .contact-page{min-height:auto;padding-top:3.75rem;padding-bottom:4rem;gap:2.75rem}.page-contact .contact-heading h1{font-size:clamp(3.1rem,14vw,4.35rem);margin:1rem 0 1.35rem}.page-contact .contact-options a{padding:1.2rem 0;gap:.55rem 1rem}.page-contact .contact-note{margin-top:.25rem}.global-contact{padding-top:4rem;padding-bottom:4rem}.global-contact h2{font-size:clamp(2.7rem,12vw,4rem);line-height:.96}}
+
+/* Type scale and calmer editorial pass. */
+:root{--fs-display:clamp(3.4rem,6.4vw,6.6rem);--fs-h2:clamp(2.4rem,4vw,4rem);--fs-h3:clamp(1.6rem,2.2vw,2.25rem);--fs-body:1.0625rem;--fs-small:.875rem;--fs-label:.75rem;--muted:#5d584f}
+body{font-size:var(--fs-body)}
+body:before{display:none}
+.hero-main h1,.page-hero h1,.contact-heading h1,.page-about .about-hero h1,.page-contact .contact-heading h1{font-size:var(--fs-display);line-height:.95;letter-spacing:-.035em}
+.hero-main h1{margin:1rem 0 1.6rem}
+.statement h2,.section-heading-wide h2,.role-preview h2,.global-contact h2,.case-copy h2,.job-body h2,.page-about .outside-grid h2{font-size:var(--fs-h2);line-height:1.02;letter-spacing:-.03em}
+.feature-card h3,.discipline-grid h3{font-size:var(--fs-h3);line-height:1.08;letter-spacing:-.015em}
+.signal-strip strong{font-size:clamp(2.2rem,3vw,3rem)}
+.kicker,.section-label>span,.role-date,.site-footer,.hero-portrait figcaption{font-size:var(--fs-label);letter-spacing:.06em}
+.signal-strip span,.discipline-grid p,.intro-note p{font-size:var(--fs-small);line-height:1.55}
+.site-nav,.button,.arrow-link{font-size:.875rem}
+.statement h2 em,.page-hero h1 em,.contact-heading h1 em{color:inherit}
+.section-label .kicker{color:var(--muted)}
+.home-hero{min-height:auto;align-items:end;padding-top:clamp(3rem,6vw,6rem);padding-bottom:4rem}
+.portrait-frame{aspect-ratio:4/5;overflow:hidden}
+.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.home-hero [data-reveal],.page-hero [data-reveal],.contact-heading[data-reveal]{opacity:1;transform:none;transition:none}
+.logo-band{background:transparent}
+.logo-band figure{background:transparent}
+.logo-band img{filter:grayscale(1) contrast(1.1);opacity:.75;mix-blend-mode:multiply}
+.feature-card{min-height:0}
+.feature-visual{height:260px}
+.global-contact{background:var(--ink)}
+.global-contact .kicker{color:#a39d93}
+.global-contact h2{max-width:14ch;margin-inline:auto}
+@media(max-width:640px){.hero-main h1,.page-hero h1,.page-about .about-hero h1,.page-contact .contact-heading h1{font-size:clamp(2.9rem,13vw,4rem)}.hero-portrait{width:72%;margin-left:0}}

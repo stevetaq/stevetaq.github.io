@@ -5,18 +5,18 @@ page_key: experience
 description: Stephen Ahiabah’s professional experience across data engineering, credit risk, stress testing and quantitative analytics.
 ---
 <header class="page-hero section-shell">
-  <div><p class="kicker">02 / Experience &amp; Education</p><h1>Professional Experience<br><em>and Education.</em></h1></div>
+  <div><p class="kicker">Experience &amp; Education</p><h1>Professional Experience<br><em>and Education.</em></h1></div>
   <p class="page-lede">Nine years solving high-stakes analytical problems across JPMorgan Chase and NatWest, from regulatory stress tests and loss forecasting to model development, data lineage and AI-ready provisioning.</p>
 </header>
 
 <section class="career-summary section-shell ruled-top">
-  <div class="section-label"><p class="kicker">Career in Brief</p><span>01</span></div>
+  <div class="section-label"><p class="kicker">Career in Brief</p></div>
   <div class="career-copy" data-reveal><p>I began as a graduate analyst moving through data innovation, private banking and fraud. That broad start became a specialism in credit risk and stress testing, then model leadership, and now data engineering.</p><p>The thread throughout is the same: find the weak point in a decision system, whether data, methodology, controls or communication, and make it dependable.</p></div>
   <dl class="career-metrics" data-reveal><div><dt>9 years</dt><dd>Banking, risk and data</dd></div><div><dt>2 firms</dt><dd>JPMorgan Chase &amp; NatWest</dd></div><div><dt>9 awards</dt><dd>Peer-recognised impact</dd></div></dl>
 </section>
 
 <section class="experience-section section-shell ruled-top">
-  <div class="section-label"><p class="kicker">Professional Experience</p><span>02</span></div>
+  <div class="section-label"><p class="kicker">Professional Experience</p></div>
   <div class="timeline-detail">
     <article class="job current" data-reveal>
       <div class="job-aside"><img class="job-logo-jpm" src="{{ '/assets/images/jpmorganchase-2024.svg' | relative_url }}" alt="JPMorganChase"><p>Sep 2026<br>Present</p></div>
@@ -42,13 +42,13 @@ description: Stephen Ahiabah’s professional experience across data engineering
 </section>
 
 <section class="education-section section-shell ruled-top">
-  <div class="section-label"><p class="kicker">Education &amp; Recognition</p><span>03</span></div>
+  <div class="section-label"><p class="kicker">Education &amp; Recognition</p></div>
   <div class="education-card" data-reveal><img src="{{ '/assets/images/manchester-logo.png' | relative_url }}" alt="The University of Manchester"><div><p class="kicker">2013 – 2017</p><h2>The University of Manchester</h2><h3>Materials Science &amp; Engineering</h3><p>Coursework included thermoelectric and nuclear materials, supported by engineering mathematics, experimental analysis and materials characterisation. My dissertation examined the thermoelectric properties of lanthanum-doped strontium titanate.</p></div></div>
   <div class="award-grid"><article data-reveal><strong>6×</strong><h3>Peer Awards</h3><p>JPMorgan Chase: AI adoption, innovation and department-wide GitHub upskilling.</p></article><article data-reveal><strong>3×</strong><h3>LOV Awards</h3><p>NatWest: Stress Testing Analytics, Coutts Product Analytics and the Graduate Programme.</p></article></div>
 </section>
 
 <section class="capability-section section-shell ruled-top">
-  <div class="section-label"><p class="kicker">Capabilities</p><span>04</span></div>
+  <div class="section-label"><p class="kicker">Capabilities</p></div>
   <div class="capability-list">
     <article data-reveal><h3>Risk &amp; Modelling</h3><p>IFRS 9, CECL, ECL, PD/LGD/EAD, stress testing, roll-rate models, ARIMAX, VAR</p></article>
     <article data-reveal><h3>Data Engineering</h3><p>PySpark ETL, lineage, metadata management, data quality, provisioning</p></article>
