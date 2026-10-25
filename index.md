@@ -48,14 +48,26 @@ scripts:
 </section>
 
 <section class="project-atlas section shell" id="after-hours" aria-labelledby="atlas-title">
-  <div class="section-head"><div><p class="kicker">02 / Outside the day job</p><h2 id="atlas-title">The other projects.</h2></div><p>Different questions, some shared methods. Select a project to see what went into it.</p></div>
+  <div class="section-head"><div><p class="kicker">02 / Outside the day job</p><h2 id="atlas-title">The other projects.</h2></div><p>Football, finance, music and the data underneath. Pick a project to follow the connections.</p></div>
   <div class="atlas-layout">
-    <div class="atlas-chart" role="group" aria-label="Side projects and their methods">
-      <div class="atlas-axis"><span>Project</span><span>Data</span><span>Models</span><span>Simulation</span><span>Writing</span></div>
-      <div id="atlas-rows"></div>
-      <p class="atlas-legend"><span></span> A method used in the project, rather than a proficiency score.</p>
+    <div class="atlas-chart" role="group" aria-label="Explore side projects and their methods">
+      <div class="atlas-map-heading"><span>Six projects</span><span>Shared methods</span></div>
+      <div class="atlas-map">
+        <svg class="atlas-connections" viewBox="0 0 700 440" preserveAspectRatio="none" aria-hidden="true"><g id="atlas-paths"></g></svg>
+        <div id="atlas-rows" class="atlas-projects"></div>
+        <div class="atlas-methods" aria-hidden="true">
+          <div class="atlas-method"><i></i><strong>Data</strong><span>Collect &amp; prepare</span></div>
+          <div class="atlas-method"><i></i><strong>Models</strong><span>Estimate &amp; explain</span></div>
+          <div class="atlas-method"><i></i><strong>Simulation</strong><span>Explore outcomes</span></div>
+          <div class="atlas-method"><i></i><strong>Writing</strong><span>Make it readable</span></div>
+        </div>
+      </div>
+      <div class="atlas-map-footer"><span id="atlas-method-summary">CannonIQ connects all four methods</span><span aria-hidden="true">Select a project ↗</span></div>
     </div>
-    <div class="atlas-detail" aria-live="polite"><span class="kicker" id="atlas-category">Writing &amp; football analytics</span><h3 id="atlas-name">CannonIQ</h3><p id="atlas-description">An Arsenal newsletter combining statistical modelling, economics and long-form writing, read by more than 500 subscribers.</p><a class="link" id="atlas-link" href="{{ '/projects.html#cannoniq' | relative_url }}">Explore this project ↗</a><span class="atlas-number" id="atlas-number" aria-hidden="true">01</span></div>
+    <article class="atlas-detail" aria-live="polite" aria-atomic="true">
+      <div class="atlas-art" aria-hidden="true"><div class="atlas-art-top"><span id="atlas-art-label">Match probabilities</span><span id="atlas-number">01 / 06</span></div><svg id="atlas-artwork" viewBox="0 0 440 205"></svg><span class="atlas-art-caption" id="atlas-art-caption">Poisson · Bayesian updating · Monte Carlo</span></div>
+      <div class="atlas-detail-copy"><span class="kicker" id="atlas-category">Writing &amp; football analytics</span><h3 id="atlas-name">CannonIQ</h3><p id="atlas-description">An Arsenal newsletter combining statistical modelling, economics and long-form writing, read by more than 500 subscribers.</p><div id="atlas-tags" class="atlas-tags"></div><a class="link" id="atlas-link" href="{{ '/projects.html#cannoniq' | relative_url }}">Explore CannonIQ ↗</a></div>
+    </article>
   </div>
   <noscript><p><a class="link" href="{{ '/projects.html' | relative_url }}">View all projects and their methods</a></p></noscript>
 </section>
