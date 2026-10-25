@@ -446,3 +446,5 @@ section[id],h2[id]{scroll-margin-top:100px}
 
 .swipe-card[data-project=cannoniq] .swipe-art img{transform:scale(1.5)}
 .page-projects:not(.deck-ready) #project-notes [data-reveal]{opacity:1;transform:none}
+
+.swipe-card[data-project=euro-model] .swipe-art{background:#deded5}.swipe-card[data-project=euro-model] .swipe-art img{max-width:none;width:125%;max-height:none;box-shadow:0 15px 30px #18241e22;border-radius:5px}@media(max-width:740px){.swipe-card[data-project=euro-model] .swipe-art img{max-width:90%;width:auto;max-height:85%}}

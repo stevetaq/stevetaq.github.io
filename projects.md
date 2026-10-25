@@ -102,7 +102,7 @@ scripts:
 
 <section class="project" id="euro-model">
   <div class="shell project-grid">
-    <figure class="project-visual on-light" data-reveal><img src="{{ '/assets/images/png_tree.png' | relative_url }}" alt="Decision tree illustration for the EURO 2024 project"><figcaption>Tournament forecasting</figcaption></figure>
+    <figure class="project-visual app-preview" data-reveal><img src="{{ '/assets/images/euro-model.png' | relative_url }}" alt="EURO 2024 Streamlit app showing the research overview, training data and opening-match goal probabilities"><figcaption>EURO 2024 · interactive model notes</figcaption></figure>
     <div data-reveal>
       <p class="kicker gold">End-to-end machine learning</p>
       <h2>EURO 2024 model notes</h2>
