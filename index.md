@@ -4,34 +4,61 @@ title: Stephen Ahiabah
 home: true
 page_key: home
 description: Stephen Ahiabah is a data engineer and credit risk modeller in London, with nine years at JPMorgan Chase and NatWest. He also writes CannonIQ.
+scripts:
+  - /assets/js/portfolio-data.js
+  - /assets/js/career-story.js
 ---
-<div class="status-bar"><div class="shell"><span><span class="dot"></span>London</span><span>Now: <b>Data Engineer</b>, JPMorgan Chase</span><span>9 years in risk and data</span></div></div>
-
-<header class="intro shell">
-  <div class="intro-copy">
-    <p class="kicker">Data engineering · Credit risk · Statistics</p>
-    <h1>Stephen Ahiabah</h1>
-    <p class="intro-big">I build the models banks use to forecast credit losses, and the data those models depend on.</p>
-    <p class="lede">Nine years at NatWest and JPMorgan Chase, across stress testing, IFRS 9 and CECL model development and, now, data engineering. Outside work I write CannonIQ, an Arsenal analytics newsletter read by 500+ people.</p>
-    <div class="sim-actions"><a class="btn btn-gold" href="{{ '/experience.html' | relative_url }}">See my experience</a><a class="link" href="{{ '/about.html' | relative_url }}">More about me ↗</a></div>
+<section class="story-hero shell" aria-labelledby="home-name">
+  <div class="story-intro">
+    <p class="kicker"><span class="story-dot"></span> London · Risk modelling &amp; data engineering</p>
+    <h1 id="home-name">Stephen<br><em>Ahiabah.</em></h1>
+    <p class="story-lead">Nine years building risk models and the data behind them.</p>
+    <p class="story-context">NatWest, then JPMorgan Chase. Outside work, I build small research apps and write about Arsenal on CannonIQ.</p>
+    <div class="sim-actions"><a class="btn btn-gold" href="{{ '/experience.html' | relative_url }}">My experience <span aria-hidden="true">↗</span></a><a class="link" href="{{ '/projects.html' | relative_url }}">Explore the projects</a></div>
+    <div class="story-signature"><span>Credit risk → model development → data engineering</span><a href="#after-hours" aria-label="See side projects below">Scroll to explore ↓</a></div>
   </div>
-</header>
-
-<section class="section shell" aria-labelledby="career-title">
-  <div class="section-head">
-    <div><p class="kicker">Experience in numbers</p><h2 id="career-title">Where I've spent my time</h2></div>
-    <p>I started in analytics, spent most of the next seven years in quantitative risk and model development, and moved into data engineering in September 2026.</p>
+  <div class="career-instrument" id="career-instrument">
+    <div class="instrument-top"><span class="kicker">01 / Experience over time</span><span class="instrument-live">2017—2026</span></div>
+    <div class="curve-stage">
+      <svg id="career-curve" viewBox="0 0 800 310" role="img" aria-labelledby="curve-title curve-desc">
+        <title id="curve-title">An animated career timeline</title><desc id="curve-desc">An illustrative normal curve marks the selected date. Use the timeline slider to explore five roles from 2017 to 2026.</desc>
+        <defs><linearGradient id="curve-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2c14e" stop-opacity=".45"/><stop offset="1" stop-color="#f2c14e" stop-opacity=".015"/></linearGradient></defs>
+        <g class="curve-grid" aria-hidden="true"><path d="M45 80H755M45 155H755M45 235H755"/><path d="M160 35V252M320 35V252M480 35V252M640 35V252"/></g>
+        <path id="curve-area" fill="url(#curve-fill)"/>
+        <path id="curve-line" fill="none" stroke="#f2c14e" stroke-width="3" stroke-linecap="round"/>
+        <line id="curve-marker" y1="40" y2="253" stroke="#f2c14e" stroke-opacity=".35" stroke-dasharray="4 5"/>
+        <circle id="curve-point" r="6" fill="#f2c14e" stroke="#0d1014" stroke-width="4"/>
+        <g id="curve-milestones" aria-hidden="true"></g>
+        <g class="curve-axis" aria-hidden="true"><text x="160" y="287">2017</text><text x="320" y="287">2020</text><text x="480" y="287">2023</text><text x="640" y="287">2026</text></g>
+      </svg>
+      <div class="curve-caption"><span>Normal curve / career timeline</span><span id="role-count">05 / 05</span></div>
+    </div>
+    <div class="role-snapshot" id="role-snapshot" aria-live="polite" aria-atomic="true">
+      <div class="snapshot-top"><span id="story-company">JPMorgan Chase</span><span id="story-period">Sep 2026—present</span></div>
+      <h2 id="story-role">Data Engineer</h2>
+      <p id="story-detail">Tracing critical data across Asset &amp; Wealth Management, with lineage, quality checks and preventative controls.</p>
+      <span class="snapshot-tag" id="story-tag">BCBS 239 · lineage · data quality</span>
+    </div>
+    <div class="career-controls">
+      <div class="timeline-label"><label for="career-year">Move through my career</label><output id="career-date" for="career-year">Oct 2026</output></div>
+      <div class="timeline-input"><button id="career-play" class="round-control" type="button" aria-label="Play career timeline" aria-pressed="false">▶</button><input id="career-year" type="range" min="0" max="109" step="1" value="109" aria-describedby="curve-note"></div>
+      <p id="curve-note">The curve is illustrative. Dates and roles are real.</p>
+    </div>
+    <noscript><p class="curve-fallback">Explore all five roles on the <a class="link" href="{{ '/experience.html' | relative_url }}">experience page</a>.</p></noscript>
   </div>
-  <figure class="career-chart">
-    <ol class="career-bars">
-      <li><div><strong>Graduate Analytics Analyst</strong><span>NatWest · Sep 2017–Sep 2019</span></div><div class="career-track" aria-hidden="true"><span style="width:60%"></span></div><b>24 months</b></li>
-      <li><div><strong>Senior Quantitative Analyst</strong><span>NatWest · Sep 2019–Jan 2023</span></div><div class="career-track" aria-hidden="true"><span style="width:100%"></span></div><b>40 months</b></li>
-      <li><div><strong>Franchise Lead</strong><span>NatWest · Jan 2023–Sep 2024</span></div><div class="career-track" aria-hidden="true"><span style="width:50%"></span></div><b>20 months</b></li>
-      <li><div><strong>Lead Model Developer</strong><span>JPMorgan Chase · Sep 2024–Sep 2026</span></div><div class="career-track" aria-hidden="true"><span style="width:60%"></span></div><b>24 months</b></li>
-      <li><div><strong>Data Engineer</strong><span>JPMorgan Chase · Sep 2026–present</span></div><div class="career-track" aria-hidden="true"><span style="width:2.5%"></span></div><b>1 month</b></li>
-    </ol>
-    <figcaption>Time in each role, in months, as of October 2026. Based on the dates on my <a class="link" href="{{ '/experience.html' | relative_url }}">experience page</a>; the current role is still growing.</figcaption>
-  </figure>
+</section>
+
+<section class="project-atlas section shell" id="after-hours" aria-labelledby="atlas-title">
+  <div class="section-head"><div><p class="kicker">02 / Outside the day job</p><h2 id="atlas-title">The other projects.</h2></div><p>Different questions, some shared methods. Select a project to see what went into it.</p></div>
+  <div class="atlas-layout">
+    <div class="atlas-chart" role="group" aria-label="Side projects and their methods">
+      <div class="atlas-axis"><span>Project</span><span>Data</span><span>Models</span><span>Simulation</span><span>Writing</span></div>
+      <div id="atlas-rows"></div>
+      <p class="atlas-legend"><span></span> A method used in the project, rather than a proficiency score.</p>
+    </div>
+    <div class="atlas-detail" aria-live="polite"><span class="kicker" id="atlas-category">Writing &amp; football analytics</span><h3 id="atlas-name">CannonIQ</h3><p id="atlas-description">An Arsenal newsletter combining statistical modelling, economics and long-form writing, read by more than 500 subscribers.</p><a class="link" id="atlas-link" href="{{ '/projects.html#cannoniq' | relative_url }}">Explore this project ↗</a><span class="atlas-number" id="atlas-number" aria-hidden="true">01</span></div>
+  </div>
+  <noscript><p><a class="link" href="{{ '/projects.html' | relative_url }}">View all projects and their methods</a></p></noscript>
 </section>
 
 <section class="section shell" aria-labelledby="areas-title">

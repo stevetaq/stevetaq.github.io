@@ -3,11 +3,49 @@ layout: site
 title: Projects & Writing
 page_key: projects
 description: FactorLens, Pipeline Watch, football analytics and independent software projects by Stephen Ahiabah.
+scripts:
+  - /assets/js/portfolio-data.js
+  - /assets/js/project-deck.js
 ---
-<header class="page-head shell">
-  <div><p class="kicker">Projects and writing</p><h1>Independent projects and writing</h1></div>
-  <p class="lede">Outside work I build small apps around questions I want to understand, from financial returns and data quality to football. These are the projects, the methods behind them and what I learned along the way.</p>
-</header>
+<header class="deck-heading shell"><div><p class="kicker">Selected projects / Independent work</p><h1>Projects &amp; <em>writing.</em></h1></div><p>Football, finance, data and the occasional music recommendation. Pick a card and take a look.</p></header>
+<section class="project-deck shell" id="project-deck" aria-label="Browse projects" hidden>
+  <div class="deck-topline"><span id="deck-position" aria-live="polite">01 / 06</span><span>Drag a card, or use the arrows</span><span class="deck-next-label" id="deck-next-label">Next: FactorLens</span></div>
+  <div class="deck-stage" id="deck-stage" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Project cards. Use left and right arrow keys.">
+    <div class="deck-back deck-back-two" aria-hidden="true"></div><div class="deck-back deck-back-one" aria-hidden="true"></div>
+    <article class="swipe-card" id="swipe-card" aria-roledescription="slide" aria-label="CannonIQ, project 1 of 6">
+      <div class="swipe-art" id="swipe-art"><span class="swipe-art-number" id="swipe-art-number" aria-hidden="true">01</span><img id="swipe-image" alt="CannonIQ artwork" draggable="false"><span class="swipe-art-caption" id="swipe-art-caption">Writing &amp; football analytics</span></div>
+      <div class="swipe-copy"><p class="kicker" id="swipe-category">Publication · 500+ subscribers</p><h2 id="swipe-title">CannonIQ</h2><p class="swipe-summary" id="swipe-summary"></p><div class="swipe-tags" id="swipe-tags"></div><div class="swipe-links"><a id="swipe-visit" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Visit the project ↗</a><button type="button" class="link" id="deck-details" aria-expanded="false" aria-controls="project-notes">Read project notes ↓</button></div></div>
+    </article>
+  </div>
+  <div class="deck-controls"><button class="deck-arrow" id="deck-prev" type="button" aria-label="Previous project">←</button><div id="deck-dots" class="deck-dots" role="group" aria-label="Choose a project"></div><button class="deck-arrow" id="deck-next" type="button" aria-label="Next project">→</button></div>
+  <p class="deck-hint">Swipe left for the next project. Swipe right to go back.</p>
+</section>
+<div id="project-notes">
+<section class="project" id="cannoniq">
+  <div class="shell">
+    <div class="project-grid">
+      <figure class="project-visual" data-reveal><img src="{{ '/assets/images/Cannon IQ Main.png' | relative_url }}" alt="CannonIQ artwork" style="filter:invert(1)"><figcaption>Arsenal · data · economics · opinion</figcaption></figure>
+      <div data-reveal>
+        <p class="kicker gold">Publication · 500+ subscribers</p>
+        <h2>CannonIQ</h2>
+        <p class="summary">An Arsenal publication that started with data-led player analysis and grew into modelling, economics, tactics and long-form writing.</p>
+        <p>The analysis uses football-data.org, FBREF and reproducible Python workflows. Recent expected points work combines weighted rolling form, Poisson goal models, a Bayesian layer and 10,000-season Monte Carlo simulations. Recruitment pieces use K-means similarity and Random Forest regression, and always spell out the limitations.</p>
+        <dl class="facts">
+          <div><dt>Methods</dt><dd>Poisson · Bayesian modelling · Monte Carlo · K-means · Random Forest</dd></div>
+          <div><dt>Subjects</dt><dd>Expected points · recruitment · tactics · football finance · fan culture</dd></div>
+          <div><dt>Approach</dt><dd>Explain the maths in plain English, and never present a probability as a certainty.</dd></div>
+        </dl>
+        <a class="btn btn-gold" href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer">Read CannonIQ ↗</a>
+      </div>
+    </div>
+    <div class="shelf">
+      <a href="https://cannoniq.substack.com/p/goals-are-rare-part-two-on-expected" target="_blank" rel="noopener noreferrer" data-reveal><span>Model notes · 2026</span><h3>Goals Are Rare</h3><p>Poisson, weighted rolling averages, Bayesian updating and Monte Carlo, explained for football people.</p><i>↗</i></a>
+      <a href="https://cannoniq.substack.com/p/the-table-lies-to-you-a-bit-part" target="_blank" rel="noopener noreferrer" data-reveal><span>Expected points · 2026</span><h3>The Table Lies to You (A Bit)</h3><p>Why a probabilistic view of team strength tells us something the league table can't.</p><i>↗</i></a>
+      <a href="https://cannoniq.substack.com/p/ml-dof-finding-arsenals-win-now-forward" target="_blank" rel="noopener noreferrer" data-reveal><span>Recruitment · 2025</span><h3>Finding Arsenal's "Win Now" Forward</h3><p>A Random Forest model for projecting goal contributions and testing shortlists.</p><i>↗</i></a>
+      <a href="https://cannoniq.substack.com/p/same-old-arsenal-same-old-lie" target="_blank" rel="noopener noreferrer" data-reveal><span>Long-form · 2026</span><h3>Same Old Arsenal. Same Old Lie.</h3><p>A personal essay on fandom, narratives and what statistics can't settle.</p><i>↗</i></a>
+    </div>
+  </div>
+</section>
 
 <section class="project" id="factorlens">
   <div class="shell project-grid">
@@ -33,32 +71,6 @@ description: FactorLens, Pipeline Watch, football analytics and independent soft
       <p>NYC taxi records move through source snapshots, validation, quarantine and deduplication into DuckDB and dbt models. Six pages let you replay a batch, inspect failed checks, trace dependencies, explore the warehouse and run read-only SQL.</p>
       <dl class="facts"><div><dt>Methods</dt><dd>Parquet · SHA-256 source hashes · atomic partition replacement · dbt tests</dd></div><div><dt>Scope</dt><dd>The bundled demo uses the first 5,000 rows from each of three months; full monthly files can be downloaded in the app.</dd></div><div><dt>Built with</dt><dd>Python · DuckDB · dbt · Parquet · Plotly</dd></div></dl>
       <a class="btn btn-gold" href="https://github.com/steveaq/Pipeline-Watch" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
-    </div>
-  </div>
-</section>
-
-<section class="project" id="cannoniq">
-  <div class="shell">
-    <div class="project-grid">
-      <figure class="project-visual" data-reveal><img src="{{ '/assets/images/Cannon IQ Main.png' | relative_url }}" alt="CannonIQ artwork" style="filter:invert(1)"><figcaption>Arsenal · data · economics · opinion</figcaption></figure>
-      <div data-reveal>
-        <p class="kicker gold">Publication · 500+ subscribers</p>
-        <h2>CannonIQ</h2>
-        <p class="summary">An Arsenal publication that started with data-led player analysis and grew into modelling, economics, tactics and long-form writing.</p>
-        <p>The analysis uses football-data.org, FBREF and reproducible Python workflows. Recent expected points work combines weighted rolling form, Poisson goal models, a Bayesian layer and 10,000-season Monte Carlo simulations. Recruitment pieces use K-means similarity and Random Forest regression, and always spell out the limitations.</p>
-        <dl class="facts">
-          <div><dt>Methods</dt><dd>Poisson · Bayesian modelling · Monte Carlo · K-means · Random Forest</dd></div>
-          <div><dt>Subjects</dt><dd>Expected points · recruitment · tactics · football finance · fan culture</dd></div>
-          <div><dt>Approach</dt><dd>Explain the maths in plain English, and never present a probability as a certainty.</dd></div>
-        </dl>
-        <a class="btn btn-gold" href="https://cannoniq.substack.com/" target="_blank" rel="noopener noreferrer">Read CannonIQ ↗</a>
-      </div>
-    </div>
-    <div class="shelf">
-      <a href="https://cannoniq.substack.com/p/goals-are-rare-part-two-on-expected" target="_blank" rel="noopener noreferrer" data-reveal><span>Model notes · 2026</span><h3>Goals Are Rare</h3><p>Poisson, weighted rolling averages, Bayesian updating and Monte Carlo, explained for football people.</p><i>↗</i></a>
-      <a href="https://cannoniq.substack.com/p/the-table-lies-to-you-a-bit-part" target="_blank" rel="noopener noreferrer" data-reveal><span>Expected points · 2026</span><h3>The Table Lies to You (A Bit)</h3><p>Why a probabilistic view of team strength tells us something the league table can't.</p><i>↗</i></a>
-      <a href="https://cannoniq.substack.com/p/ml-dof-finding-arsenals-win-now-forward" target="_blank" rel="noopener noreferrer" data-reveal><span>Recruitment · 2025</span><h3>Finding Arsenal's "Win Now" Forward</h3><p>A Random Forest model for projecting goal contributions and testing shortlists.</p><i>↗</i></a>
-      <a href="https://cannoniq.substack.com/p/same-old-arsenal-same-old-lie" target="_blank" rel="noopener noreferrer" data-reveal><span>Long-form · 2026</span><h3>Same Old Arsenal. Same Old Lie.</h3><p>A personal essay on fandom, narratives and what statistics can't settle.</p><i>↗</i></a>
     </div>
   </div>
 </section>
@@ -116,11 +128,4 @@ description: FactorLens, Pipeline Watch, football analytics and independent soft
   </div>
 </section>
 
-<section class="section shell" aria-labelledby="build-title">
-  <div class="section-head"><div><p class="kicker">How I build</p><h2 id="build-title">Three rules for independent work</h2></div></div>
-  <div class="principles">
-    <article data-reveal><h3>Start with the question</h3><p>A technically impressive model is useless if nobody knows what decision it supports.</p></article>
-    <article data-reveal><h3>Show uncertainty</h3><p>Probabilities, assumptions and model limits belong in the output, not in a footnote.</p></article>
-    <article data-reveal><h3>Write for people</h3><p>The method matters, but the explanation is what lets other people check it and use it.</p></article>
-  </div>
-</section>
+</div>
