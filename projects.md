@@ -56,7 +56,8 @@ scripts:
       <p class="summary">A research app for understanding which market factors explain an industry portfolio’s returns.</p>
       <p>I used Kenneth French’s monthly factor and industry data to compare exposures, break down returns and check how stable the relationships are over time. Six pages cover risk, regression diagnostics and validation, including chronological holdouts and walk-forward estimates.</p>
       <dl class="facts"><div><dt>Methods</dt><dd>OLS with HAC confidence intervals · rolling exposures · historical VaR and expected shortfall</dd></div><div><dt>Scope</dt><dd>This studies return attribution using realised factors; it does not forecast trades.</dd></div><div><dt>Built with</dt><dd>Python · pandas · statsmodels · SciPy · Plotly</dd></div></dl>
-      <a class="btn btn-gold" href="https://github.com/steveaq/FactorLens" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
+      <a class="btn btn-gold" href="https://c2umdutfhvj2uw9gyb9x8c.streamlit.app/" target="_blank" rel="noopener noreferrer">Open app ↗</a>
+      <a class="link" style="margin-left:1rem" href="https://github.com/steveaq/FactorLens" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
     </div>
   </div>
 </section>
@@ -70,7 +71,8 @@ scripts:
       <p class="summary">A small data warehouse with enough visibility to explain what happened to every batch.</p>
       <p>NYC taxi records move through source snapshots, validation, quarantine and deduplication into DuckDB and dbt models. Six pages let you replay a batch, inspect failed checks, trace dependencies, explore the warehouse and run read-only SQL.</p>
       <dl class="facts"><div><dt>Methods</dt><dd>Parquet · SHA-256 source hashes · atomic partition replacement · dbt tests</dd></div><div><dt>Scope</dt><dd>The bundled demo uses the first 5,000 rows from each of three months; full monthly files can be downloaded in the app.</dd></div><div><dt>Built with</dt><dd>Python · DuckDB · dbt · Parquet · Plotly</dd></div></dl>
-      <a class="btn btn-gold" href="https://github.com/steveaq/Pipeline-Watch" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
+      <a class="btn btn-gold" href="https://lemsbpfcnjbj5d9agytv6h.streamlit.app/" target="_blank" rel="noopener noreferrer">Open app ↗</a>
+      <a class="link" style="margin-left:1rem" href="https://github.com/steveaq/Pipeline-Watch" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
     </div>
   </div>
 </section>
@@ -109,6 +111,7 @@ scripts:
       <p class="summary">An eight-page Streamlit app following the original EURO 2024 analysis from source data to a shareable research report.</p>
       <p>Separate goal regressors feed Poisson match probabilities and a seeded tournament simulation. Explore the data, rank-weighted features, model comparisons and chronological validation, then review the actual group games or export the findings.</p>
       <div class="tags"><span>Random Forest</span><span>scikit-learn</span><span>Poisson</span><span>Streamlit</span></div>
+      <a class="btn btn-gold" href="https://ml-2024-euros-modelgit-6zvabpiedx2gdyu8rihm4t.streamlit.app/" target="_blank" rel="noopener noreferrer">Open app ↗</a>
       <p style="margin-top:1.6rem"><a class="link" href="https://github.com/steveaq/ML-2024-Euros-Model" target="_blank" rel="noopener noreferrer">View the repository ↗</a></p>
     </div>
   </div>
