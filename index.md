@@ -4,8 +4,6 @@ title: Stephen Ahiabah
 home: true
 page_key: home
 description: Stephen Ahiabah is a data engineer and credit risk modeller in London, with nine years at JPMorgan Chase and NatWest. He also writes CannonIQ.
-scripts:
-  - /assets/js/loss-sim.js
 ---
 <div class="status-bar"><div class="shell"><span><span class="dot"></span>London</span><span>Now: <b>Data Engineer</b>, JPMorgan Chase</span><span>9 years in risk and data</span></div></div>
 
@@ -20,26 +18,21 @@ scripts:
   <figure class="intro-portrait"><img src="{{ '/assets/images/new_pic.png' | relative_url }}" alt="Portrait of Stephen Ahiabah" width="1170" height="1092"><figcaption><span>Data Engineer, JPMorgan Chase</span><span>London</span></figcaption></figure>
 </header>
 
-<section class="loss-model shell" aria-labelledby="model-title">
-  <form class="model-card" id="simForm" aria-label="Model inputs">
-    <p class="kicker gold">Fig. 1 · Live model</p>
-    <h2 id="model-title">How much could a loan book lose?</h2>
-    <p>A simplified version of the credit loss models I've built for IFRS 9 and stress testing. 1,000 loans, £10m lent. Each run simulates one year of the economy and counts the defaults.</p>
-    <div class="slider"><label for="inPd">Default rate</label><output id="outPd" for="inPd">3%</output><input id="inPd" type="range" min="0.5" max="10" step="0.5" value="3"></div>
-    <div class="slider"><label for="inLgd">Loss when a loan defaults</label><output id="outLgd" for="inLgd">45%</output><input id="inLgd" type="range" min="10" max="80" step="5" value="45"></div>
-    <div class="slider"><label for="inRho">Sensitivity to the economy</label><output id="outRho" for="inRho">15%</output><input id="inRho" type="range" min="1" max="30" step="1" value="15"></div>
-  </form>
-  <div class="model-out">
-    <div class="sim-plot" aria-hidden="true"><canvas id="sim"></canvas></div>
-    <div class="sim-readout" aria-live="polite">
-      <div>Simulated years<b id="simN">0</b></div>
-      <div>Expected loss<b id="simMean">–</b></div>
-      <div class="risk">1 in 100 year loss<b id="simTail">–</b></div>
-      <div>Buffer above expected<b id="simBuffer">–</b></div>
-      <button class="btn" id="simAgain" type="button">Run again</button>
-    </div>
-    <p class="sim-note">Illustrative one-factor (Vasicek) portfolio model. Losses in £k over one year. Each dot is one simulated year. Red bars are the worst 1% of years, the tail that stress testing and capital planning are built around.</p>
+<section class="section shell" aria-labelledby="career-title">
+  <div class="section-head">
+    <div><p class="kicker">Experience in numbers</p><h2 id="career-title">Where I've spent my time</h2></div>
+    <p>I started in analytics, spent most of the next seven years in quantitative risk and model development, and moved into data engineering in September 2026.</p>
   </div>
+  <figure class="career-chart">
+    <ol class="career-bars">
+      <li><div><strong>Graduate Analytics Analyst</strong><span>NatWest · Sep 2017–Sep 2019</span></div><div class="career-track" aria-hidden="true"><span style="width:60%"></span></div><b>24 months</b></li>
+      <li><div><strong>Senior Quantitative Analyst</strong><span>NatWest · Sep 2019–Jan 2023</span></div><div class="career-track" aria-hidden="true"><span style="width:100%"></span></div><b>40 months</b></li>
+      <li><div><strong>Franchise Lead</strong><span>NatWest · Jan 2023–Sep 2024</span></div><div class="career-track" aria-hidden="true"><span style="width:50%"></span></div><b>20 months</b></li>
+      <li><div><strong>Lead Model Developer</strong><span>JPMorgan Chase · Sep 2024–Sep 2026</span></div><div class="career-track" aria-hidden="true"><span style="width:60%"></span></div><b>24 months</b></li>
+      <li><div><strong>Data Engineer</strong><span>JPMorgan Chase · Sep 2026–present</span></div><div class="career-track" aria-hidden="true"><span style="width:2.5%"></span></div><b>1 month</b></li>
+    </ol>
+    <figcaption>Time in each role, in months, as of October 2026. Based on the dates on my <a class="link" href="{{ '/experience.html' | relative_url }}">experience page</a>; the current role is still growing.</figcaption>
+  </figure>
 </section>
 
 <section class="section shell" aria-labelledby="areas-title">
@@ -66,6 +59,14 @@ scripts:
     <tr data-reveal><td>7+</td><td>Inherited model risk issues cleared in my first year as lead model developer</td><td>JPMorgan Chase</td></tr>
     <tr data-reveal><td>100+</td><td>Colleagues moved onto SageMaker, CI/CD and GitHub across ICB Risk</td><td>JPMorgan Chase</td></tr>
   </table>
+</section>
+
+<section class="section shell" aria-labelledby="builds-title">
+  <div class="section-head"><div><p class="kicker">Recent projects</p><h2 id="builds-title">Finance research and data engineering</h2></div><p>Two Streamlit apps built around public datasets, with the methods and code available to inspect.</p></div>
+  <div class="recent-builds">
+    <a href="{{ '/projects.html#factorlens' | relative_url }}"><span class="kicker gold">Quantitative finance</span><h3>FactorLens</h3><p>Factor exposures, return attribution and model diagnostics using Kenneth French's research data.</p><span class="link">Explore FactorLens ↗</span></a>
+    <a href="{{ '/projects.html#pipeline-watch' | relative_url }}"><span class="kicker gold">Data engineering</span><h3>Pipeline Watch</h3><p>A taxi-data pipeline you can replay, inspect and query, from source files to a tested warehouse.</p><span class="link">Explore Pipeline Watch ↗</span></a>
+  </div>
 </section>
 
 <section class="section shell" aria-labelledby="writing-title">

@@ -347,3 +347,27 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em}
   .channel-list span{grid-column:1/-1}
   .copy-btn{margin:1rem 0 0;display:block}
 }
+
+/* Career durations use the published role dates, not self-rated skill scores. */
+.career-chart{margin:0;padding:clamp(1.2rem,3vw,2.5rem);border:1px solid var(--line);border-radius:10px;background:var(--bg-2)}
+.career-bars{list-style:none;padding:0;margin:0;display:grid;gap:1.7rem}
+.career-bars li{display:grid;grid-template-columns:minmax(180px,1fr) minmax(0,1.6fr) 90px;gap:1.5rem;align-items:center}
+.career-bars strong{display:block;font-weight:500;font-size:1rem}
+.career-bars li>div>span:not([style]){display:block;font-size:.75rem;color:var(--muted)}
+.career-track{height:14px;background:var(--bg-3);border-radius:2px;overflow:hidden}
+.career-track span{display:block;height:100%;background:var(--gold);min-width:3px}
+.career-bars b{font:400 .75rem var(--mono);text-align:right;white-space:nowrap}
+.career-chart figcaption{margin-top:2rem;color:var(--muted);font-size:.8rem}
+.recent-builds{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.recent-builds>a{padding:2rem;background:var(--bg-2)}
+.recent-builds>a:hover{background:var(--bg-3)}
+.recent-builds h3{font-size:2.3rem;margin:1rem 0 .7rem}
+.recent-builds p{color:var(--muted)}
+.project-visual.app-preview{aspect-ratio:16/11;display:flex;align-items:center;padding-bottom:2.5rem}
+.project-visual.app-preview img{width:100%;height:auto;max-height:none;object-fit:contain}
+.pitch.lineup-ready .player{opacity:0;transform:translate(-50%,calc(-50% + 28px));transition:opacity 500ms ease var(--player-delay),transform 700ms cubic-bezier(.2,.7,.2,1) var(--player-delay)}
+.pitch.lineup-ready.lineup-in .player{opacity:1;transform:translate(-50%,-50%)}
+@media(max-width:640px){.career-bars li{grid-template-columns:1fr auto;gap:.5rem}.career-track{grid-column:1/-1;grid-row:auto}.career-bars b{grid-column:2}.career-bars li>div:first-child{grid-column:1/-1}.recent-builds{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.pitch.lineup-ready .player{opacity:1;transform:translate(-50%,-50%)}}
+
+section[id],h2[id]{scroll-margin-top:100px}

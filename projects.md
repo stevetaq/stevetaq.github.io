@@ -2,12 +2,40 @@
 layout: site
 title: Projects & Writing
 page_key: projects
-description: Football analytics, statistical modelling, writing and independent software projects by Stephen Ahiabah.
+description: FactorLens, Pipeline Watch, football analytics and independent software projects by Stephen Ahiabah.
 ---
 <header class="page-head shell">
   <div><p class="kicker">Projects and writing</p><h1>Independent projects and writing</h1></div>
-  <p class="lede">This is where I try new methods outside work. The aim isn't to make football look scientific. It's to use evidence well, be honest about uncertainty and still leave room for the game itself.</p>
+  <p class="lede">Outside work I build small apps around questions I want to understand, from financial returns and data quality to football. These are the projects, the methods behind them and what I learned along the way.</p>
 </header>
+
+<section class="project" id="factorlens">
+  <div class="shell project-grid">
+    <figure class="project-visual app-preview" data-reveal><img src="{{ '/assets/images/factorlens.png' | relative_url }}" alt="FactorLens model diagnostics with residual and regression charts" loading="lazy" width="1280" height="720"><figcaption>FactorLens · application screenshot</figcaption></figure>
+    <div data-reveal>
+      <p class="kicker gold">Quantitative finance · Streamlit</p>
+      <h2>FactorLens</h2>
+      <p class="summary">A research app for understanding which market factors explain an industry portfolio’s returns.</p>
+      <p>I used Kenneth French’s monthly factor and industry data to compare exposures, break down returns and check how stable the relationships are over time. Six pages cover risk, regression diagnostics and validation, including chronological holdouts and walk-forward estimates.</p>
+      <dl class="facts"><div><dt>Methods</dt><dd>OLS with HAC confidence intervals · rolling exposures · historical VaR and expected shortfall</dd></div><div><dt>Scope</dt><dd>This studies return attribution using realised factors; it does not forecast trades.</dd></div><div><dt>Built with</dt><dd>Python · pandas · statsmodels · SciPy · Plotly</dd></div></dl>
+      <a class="btn btn-gold" href="https://github.com/steveaq/FactorLens" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="project" id="pipeline-watch">
+  <div class="shell project-grid">
+    <figure class="project-visual app-preview" data-reveal><img src="{{ '/assets/images/pipeline-watch.png' | relative_url }}" alt="Pipeline Watch data-quality checks and rejected-record analytics" loading="lazy" width="1280" height="720"><figcaption>Pipeline Watch · application screenshot</figcaption></figure>
+    <div data-reveal>
+      <p class="kicker gold">Data engineering · Streamlit</p>
+      <h2>Pipeline Watch</h2>
+      <p class="summary">A small data warehouse with enough visibility to explain what happened to every batch.</p>
+      <p>NYC taxi records move through source snapshots, validation, quarantine and deduplication into DuckDB and dbt models. Six pages let you replay a batch, inspect failed checks, trace dependencies, explore the warehouse and run read-only SQL.</p>
+      <dl class="facts"><div><dt>Methods</dt><dd>Parquet · SHA-256 source hashes · atomic partition replacement · dbt tests</dd></div><div><dt>Scope</dt><dd>The bundled demo uses the first 5,000 rows from each of three months; full monthly files can be downloaded in the app.</dd></div><div><dt>Built with</dt><dd>Python · DuckDB · dbt · Parquet · Plotly</dd></div></dl>
+      <a class="btn btn-gold" href="https://github.com/steveaq/Pipeline-Watch" target="_blank" rel="noopener noreferrer">View code and setup ↗</a>
+    </div>
+  </div>
+</section>
 
 <section class="project" id="cannoniq">
   <div class="shell">

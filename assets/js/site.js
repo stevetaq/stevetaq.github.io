@@ -41,3 +41,18 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
 
 const year = document.getElementById('year');
 if (year) year.textContent = String(new Date().getFullYear());
+
+// The team takes its positions once, from the goalkeeper to the forwards.
+const pitch = document.querySelector('.pitch');
+if (pitch && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const players = [...pitch.querySelectorAll('.player')].sort((a, b) => parseFloat(b.style.top) - parseFloat(a.style.top));
+  players.forEach((player, index) => player.style.setProperty('--player-delay', `${index * 65}ms`));
+  pitch.classList.add('lineup-ready');
+  const lineupObserver = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      pitch.classList.add('lineup-in');
+      lineupObserver.disconnect();
+    }
+  }, { threshold: 0.15 });
+  lineupObserver.observe(pitch);
+}

@@ -3,6 +3,7 @@ name: Check Jekyll build
 on:
   pull_request:
     branches:
+      - main
       - master
 
 jobs:
