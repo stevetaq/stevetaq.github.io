@@ -15,7 +15,6 @@ description: Stephen Ahiabah is a data engineer and credit risk modeller in Lond
     <p class="lede">Nine years at NatWest and JPMorgan Chase, across stress testing, IFRS 9 and CECL model development and, now, data engineering. Outside work I write CannonIQ, an Arsenal analytics newsletter read by 500+ people.</p>
     <div class="sim-actions"><a class="btn btn-gold" href="{{ '/experience.html' | relative_url }}">See my experience</a><a class="link" href="{{ '/about.html' | relative_url }}">More about me ↗</a></div>
   </div>
-  <figure class="intro-portrait"><img src="{{ '/assets/images/new_pic.png' | relative_url }}" alt="Portrait of Stephen Ahiabah" width="1170" height="1092"><figcaption><span>Data Engineer, JPMorgan Chase</span><span>London</span></figcaption></figure>
 </header>
 
 <section class="section shell" aria-labelledby="career-title">
