@@ -41,8 +41,7 @@ scripts:
     </div>
     <div class="career-controls">
       <div class="timeline-label"><label for="career-year">Move through my career</label><output id="career-date" for="career-year">Oct 2026</output></div>
-      <div class="timeline-input"><button id="career-play" class="round-control" type="button" aria-label="Play career timeline" aria-pressed="false">▶</button><input id="career-year" type="range" min="0" max="109" step="1" value="109" aria-describedby="curve-note"></div>
-      <p id="curve-note">The curve is illustrative. Dates and roles are real.</p>
+      <div class="timeline-input"><button id="career-play" class="round-control" type="button" aria-label="Play career timeline" aria-pressed="false">▶</button><input id="career-year" type="range" min="0" max="109" step="1" value="109"></div>
     </div>
     <noscript><p class="curve-fallback">Explore all five roles on the <a class="link" href="{{ '/experience.html' | relative_url }}">experience page</a>.</p></noscript>
   </div>
