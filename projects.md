@@ -93,10 +93,10 @@ description: FactorLens, Pipeline Watch, football analytics and independent soft
     <figure class="project-visual on-light" data-reveal><img src="{{ '/assets/images/png_tree.png' | relative_url }}" alt="Decision tree illustration for the EURO 2024 project"><figcaption>Tournament forecasting</figcaption></figure>
     <div data-reveal>
       <p class="kicker gold">End-to-end machine learning</p>
-      <h2>UEFA EURO 2024 Predictor</h2>
-      <p class="summary">A tournament forecast built from historical international results and FIFA ranking data.</p>
-      <p>Feature engineering, scikit-learn and XGBoost feed a Monte Carlo simulation. Instead of one bracket, repeated tournament runs show the distribution of possible outcomes.</p>
-      <div class="tags"><span>XGBoost</span><span>scikit-learn</span><span>Monte Carlo</span><span>Python</span></div>
+      <h2>EURO 2024 model notes</h2>
+      <p class="summary">An eight-page Streamlit app following the original EURO 2024 analysis from source data to a shareable research report.</p>
+      <p>Separate goal regressors feed Poisson match probabilities and a seeded tournament simulation. Explore the data, rank-weighted features, model comparisons and chronological validation, then review the actual group games or export the findings.</p>
+      <div class="tags"><span>Random Forest</span><span>scikit-learn</span><span>Poisson</span><span>Streamlit</span></div>
       <p style="margin-top:1.6rem"><a class="link" href="https://github.com/steveaq/ML-2024-Euros-Model" target="_blank" rel="noopener noreferrer">View the repository ↗</a></p>
     </div>
   </div>
